@@ -1,23 +1,35 @@
 # Site settings
 title: 菇星独行
 SEOTitle: 菇歌 | Guogle
-header-img: img/home-bg.jpg
 email: mgsweet@126.com
+header-img: img/home-bg.jpg
 description: "Mr.GU's Imagination"
 keyword: ""
 url: "http://mgsweet.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+manger: Mr.GU
 
-#authors
+#authors' infomation
+#use site.authors[page.author].name to access the author's name
+authors:
+  Mr.GU:
+    name: Mr.GU
+    email: mgsweet@126.com
+    website: http://mgsweet.github.io
+    github: mgsweet
+    weibo: mgsweet
+    QQ: 610879915
+
 
 
 # SNS settings
 RSS: false
 weibo_username:     mgsweet
-zhihu_username:     mgsweet
 github_username:    mgsweet
-#twitter_username:  mgsweet
 facebook_username:  gulessness
+zhihu_username:     mgsweet
+
+#twitter_username:  mgsweet
 
 
 
@@ -44,6 +56,10 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: "ruby"
+    
 
 
 
