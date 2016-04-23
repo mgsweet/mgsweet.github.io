@@ -10,9 +10,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Welcome to Guogle菇歌 - 菇歌 | Guogle</title>
+    <title>jekyll博客文章生成器制作 - 菇歌 | Guogle</title>
 
-    <link rel="canonical" href="http://mgsweet.github.io/2016/04/21/Welcome-to-Guogle/">
+    <link rel="canonical" href="http://mgsweet.github.io/jekyll/rake/2016/04/23/jekyllrfl/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -125,12 +125,12 @@
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-2016-helloworld.jpg" width="0" height="0"> -->
+<!-- <img src="/img/home-bg.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('/img/post-2016-helloworld.jpg')
+        background-image: url('/img/home-bg.jpg')
     }
 </style>
 <header class="intro-header" >
@@ -140,15 +140,15 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#初体验" title="初体验">初体验</a>
+                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
                         
                     </div>
-                    <h1>Welcome to Guogle菇歌</h1>
+                    <h1>jekyll博客文章生成器制作</h1>
                     
                     
-                    <h2 class="subheading"> "Hello my World, Hello my Blog"</h2>
+                    <h2 class="subheading">"简便的文章模版运用"</h2>
                     
-                    <span class="meta">Posted by Mr.gu on April 21, 2016</span>
+                    <span class="meta">Posted by mgsweet on April 23, 2016</span>
                 </div>
             </div>
         </div>
@@ -166,46 +166,79 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<p><em>一下部分内容复制至原博主</em><br />
-&gt; “Yeah It’s on. “</p>
-
-<h2 id="section">前言</h2>
-
-<p>新博客就这么开启了。</p>
-
-<p><a href="#build">学着用这种markdown语法， 直接去到正文把哈哈</a></p>
-
-<p>2016年，在这个专业上终于是找到了很多的快乐，喜欢打码，喜欢这个世界，希望这个世界会变得更好。</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="err">在</span><span class="n">csdn</span><span class="err">玩了两个星期的技术博客，真的不想吐槽那博客有多丑，流量有多虚了，不过因为那里更方便快捷分享，所以依然会保留那边的文章并更新，这边会分享一些日常，或者真的用心写的文章。</span>
-
-<span class="err">还有就是，</span><span class="n">csdn</span><span class="err">的域名太坑了，之前用的</span><span class="n">qq</span><span class="err">自动登录，发现竟然无法改域名，忍痛割爱，为了统一的域名，两个星期积累下的</span><span class="mi">1500</span><span class="o">+</span><span class="err">访问量和各种上百的阅读量就这样被我抛弃了，真的恶心到我了。</span>
-
-<span class="err">无意在浏览别人</span><span class="n">csdn</span><span class="err">的时候发现了</span><span class="n">github</span><span class="o">+</span><span class="n">jekyll</span><span class="err">搭建自己博客这种自由开放的博客建造模式，一直都想有自己的域名，很炫的哈哈，目前作为试验阶段，暂且用着</span><span class="n">github</span><span class="err">的免费托管，不过也不差啦。这里要感谢</span><span class="n">hux</span><span class="err">提供的模版，然后自我学习自我折腾，不会前端的我也出了自己的小网站，欢迎观光哈哈。</span>
+				<h2 id="section">前言</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="o">---</span>
+<span class="ss">layout: </span><span class="n">post</span>
+<span class="ss">title:  </span><span class="s2">"Welcome to Jekyll!"</span>
+<span class="ss">date:   </span><span class="mi">2016</span><span class="o">-</span><span class="mo">03</span><span class="o">-</span><span class="mo">04</span> <span class="mi">10</span><span class="p">:</span><span class="mi">52</span><span class="p">:</span><span class="mi">19</span> <span class="o">+</span><span class="mo">0100</span>
+<span class="ss">categories: </span><span class="n">jekyll</span> <span class="n">update</span>
+<span class="o">---</span>
 </code></pre>
 </div>
+<p>每次写文章，都要重新写一遍这种开头然后把文件重命名成固定的格式是不是很烦？这种重复性的东西我们就把它自动化，通过Rakefile去解决，它类似shell这样的脚本，可以使用交互模式。以下是 <a href="http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/">pizida</a>的Rakefile,可以复制后命名为Rakefile，放在站点根目录直接使用，也可以修改为适合自己的Rakefile：现在有了rakefile就可以直接生成了。</p>
 
-<p id="build"></p>
-<hr />
+<h2 id="rakefile">RAKEFILE</h2>
 
-<p>##正文</p>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">task</span> <span class="ss">:default</span> <span class="o">=&gt;</span> <span class="ss">:new</span>
 
-<p>接下来是本人学习搭建这个博客的技术细节。</p>
+<span class="nb">require</span> <span class="s1">'fileutils'</span>
 
-<p>这个博客需要用到 <a href="https://pages.github.com/">GitHub Pages</a> + <a href="http://jekyllrb.com/">Jekyll</a> 快速 Building Blog 的技术方案。</p>
+<span class="n">desc</span> <span class="s2">"创建新 post"</span>
+<span class="n">task</span> <span class="ss">:new</span> <span class="k">do</span>
+  <span class="nb">puts</span> <span class="s2">"请输入要创建的 post URL："</span>
+  <span class="vi">@url</span> <span class="o">=</span> <span class="no">STDIN</span><span class="p">.</span><span class="nf">gets</span><span class="p">.</span><span class="nf">chomp</span>
+  <span class="nb">puts</span> <span class="s2">"请输入 post 标题："</span>
+  <span class="vi">@name</span> <span class="o">=</span> <span class="no">STDIN</span><span class="p">.</span><span class="nf">gets</span><span class="p">.</span><span class="nf">chomp</span>
+  <span class="nb">puts</span> <span class="s2">"请输入 post 子标题："</span>
+  <span class="vi">@subtitle</span> <span class="o">=</span> <span class="no">STDIN</span><span class="p">.</span><span class="nf">gets</span><span class="p">.</span><span class="nf">chomp</span>
+  <span class="nb">puts</span> <span class="s2">"请输入 post 分类，以空格分隔："</span>
+  <span class="vi">@categories</span> <span class="o">=</span> <span class="no">STDIN</span><span class="p">.</span><span class="nf">gets</span><span class="p">.</span><span class="nf">chomp</span>
+  <span class="nb">puts</span> <span class="s2">"请输入 post 标签："</span>
+  <span class="vi">@tag</span> <span class="o">=</span> <span class="no">STDIN</span><span class="p">.</span><span class="nf">gets</span><span class="p">.</span><span class="nf">chomp</span>
+  <span class="vi">@slug</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="vi">@url</span><span class="si">}</span><span class="s2">"</span>
+  <span class="vi">@slug</span> <span class="o">=</span> <span class="vi">@slug</span><span class="p">.</span><span class="nf">downcase</span><span class="p">.</span><span class="nf">strip</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="s1">' '</span><span class="p">,</span> <span class="s1">'-'</span><span class="p">)</span>
+  <span class="vi">@date</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">strftime</span><span class="p">(</span><span class="s2">"%F"</span><span class="p">)</span>
+  <span class="vi">@post_name</span> <span class="o">=</span> <span class="s2">"_posts/</span><span class="si">#{</span><span class="vi">@date</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="vi">@slug</span><span class="si">}</span><span class="s2">.md"</span>
+  <span class="k">if</span> <span class="no">File</span><span class="p">.</span><span class="nf">exist?</span><span class="p">(</span><span class="vi">@post_name</span><span class="p">)</span>
+      <span class="nb">abort</span><span class="p">(</span><span class="s2">"文件名已经存在！创建失败"</span><span class="p">)</span>
+  <span class="k">end</span>
+  <span class="no">FileUtils</span><span class="p">.</span><span class="nf">touch</span><span class="p">(</span><span class="vi">@post_name</span><span class="p">)</span>
+  <span class="nb">open</span><span class="p">(</span><span class="vi">@post_name</span><span class="p">,</span> <span class="s1">'a'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">file</span><span class="o">|</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"---"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"layout: post"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"title: </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"subtitle: </span><span class="si">#{</span><span class="vi">@subtitle</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"author: pizida"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"date: </span><span class="si">#{</span><span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"categories: </span><span class="si">#{</span><span class="vi">@categories</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"tag: </span><span class="si">#{</span><span class="vi">@tag</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">file</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"---"</span>
+  <span class="k">end</span>
+  <span class="nb">exec</span> <span class="s2">"vi </span><span class="si">#{</span><span class="vi">@post_name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+</code></pre>
+</div>
+<p><em>上面的内容可以更改，例如作者名，只要把file.puts后的东西改成你想要的就可以了。</em></p>
 
-<p>其优点非常明显：</p>
+<p>如何使用Rake,首先你要安装Rake<br />
+<code class="highlighter-rouge"><span class="n">gem</span> <span class="n">install</span> <span class="n">rake</span></code><br />
+输入一下命令<br />
+<code class="highlighter-rouge"><span class="n">rake</span> <span class="kp">new</span></code><br />
+rake会启动交互模式，让你依次输入title，subtitle，author，categories，tag等信息，并为你创建好具有头信息的markdown文件。如下一样:<br />
+<code class="highlighter-rouge">
+<span class="err">请输入要创建的</span> <span class="n">post</span> <span class="no">URL</span><span class="err">：</span>
+<span class="n">testurl</span>
+<span class="err">请输入</span> <span class="n">post</span> <span class="err">标题：</span>
+<span class="n">testpost</span>
+<span class="err">请输入</span> <span class="n">post</span> <span class="err">子标题：</span>
+<span class="n">subtitle</span>    
+<span class="err">请输入</span> <span class="n">post</span> <span class="err">分类，以空格分隔：</span>
+<span class="n">jekyll</span>
+<span class="err">请输入</span> <span class="n">post</span> <span class="err">标签：</span>
+<span class="err">技术</span>
+</code></p>
 
-<ul>
-  <li><strong>Markdown</strong> 带来的优雅写作体验</li>
-  <li>非常熟悉的 Git workflow ，<strong>Git Commit 即 Blog Post</strong></li>
-  <li>利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机</li>
-  <li>如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了</li>
-  <li>Jekyll 的自定制非常容易，基本就是个模版引擎</li>
-</ul>
-
-<p>mac自带的gem 和 ruby 版本较低，好在安装升级方便，各种终端install就完成了，当然遇到了jekyll被墙的问题，不过解决解决方法十分多，大家就百度一下咯。</p>
-
+<p>把这个makefile放在跟目录，运行后文件会自动保存到—post目录，很方便对吧</p>
 
 
                 <hr>
@@ -215,9 +248,13 @@
 
                 <ul class="pager">
                     
+                    <li class="previous">
+                        <a href="/2016/04/21/Welcome-to-Guogle/" data-toggle="tooltip" data-placement="top" title="Welcome to Guogle菇歌">&larr; Previous Post</a>
+                    </li>
+                    
                     
                     <li class="next">
-                        <a href="/jekyll/rake/2016/04/23/jekyllrfl/" data-toggle="tooltip" data-placement="top" title="jekyll博客文章生成器制作">Next Post &rarr;</a>
+                        <a href="/jekyll/git/2016/04/23/jekyllgp/" data-toggle="tooltip" data-placement="top" title="Jekyll + Github page 搭建自己免费的博客网站">Next Post &rarr;</a>
                     </li>
                     
                 </ul>
@@ -299,8 +336,8 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "mgsweet";
-    var disqus_identifier = "/2016/04/21/Welcome-to-Guogle";
-    var disqus_url = "http://mgsweet.github.io/2016/04/21/Welcome-to-Guogle/";
+    var disqus_identifier = "/jekyll/rake/2016/04/23/jekyllrfl";
+    var disqus_url = "http://mgsweet.github.io/jekyll/rake/2016/04/23/jekyllrfl/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
