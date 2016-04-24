@@ -5,8 +5,8 @@
     <description>Mr.GU&#39;s Imagination</description>
     <link>http://mgsweet.github.io/</link>
     <atom:link href="http://mgsweet.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Apr 2016 23:33:46 +0800</pubDate>
-    <lastBuildDate>Sat, 23 Apr 2016 23:33:46 +0800</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2016 09:47:47 +0800</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2016 09:47:47 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -644,31 +644,128 @@ https://github.com/mgsweet/Eden-Answer-Improvement/blob/master/README.md&lt;/p&g
     
       <item>
         <title>Jekyll + Github page 搭建自己免费的博客网站</title>
-        <description>&lt;p&gt;＊目前这是一篇持续更新的博客＊&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;目前这是一篇持续更新的博客&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bloghttpsmgsweetgithubio&quot;&gt;##我的作品：&lt;a href=&quot;https://mgsweet.github.io&quot;&gt;菇星独行  |  Blog&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-&lt;p&gt;一直都想有自己的域名，搞自己的博客，直到在github上发现了&lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;hux的模版&lt;/a&gt;才发现了这种神器的建blog方法，对于不懂前端的我，入门门槛并不低。不过还好，我是一个喜欢折腾的人。&lt;/p&gt;
+&lt;p&gt;一直都想有自己的域名，搞自己的博客，直到在github上发现了&lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;hux的模版&lt;/a&gt;，才完成了这个任务，对于不懂前端的我，入门门槛并不低。不过还好，我是一个喜欢折腾的人。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;正文&lt;/h2&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;准备&lt;/h2&gt;
 &lt;p&gt;首先就是要配置最新的&lt;br /&gt;
 ruby&lt;br /&gt;
 gem&lt;br /&gt;
 jekyll&lt;/p&gt;
 
-&lt;p&gt;不过在神器homebrew的帮助下，这些都是几条终端语句的问题。&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我是mac用户，强烈推荐大家在mac中安装homebrew&lt;br /&gt;
+在神器homebrew的帮助下，是、以上这些都是几条终端语句的问题。&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;关于初次尝试，我推荐这篇文章—&lt;a href=&quot;http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/&quot;&gt;Jekyll本地搭建开发环境以及Github部署流程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;关于初次尝试，我推荐阅读这篇文章—&lt;a href=&quot;http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/&quot;&gt;Jekyll本地搭建开发环境以及Github部署流程&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;###关于用Rakefile自动生成文章模版并放到固定位置&lt;br /&gt;
-首先&lt;br /&gt;
+&lt;h2 id=&quot;jekyll&quot;&gt;先来介绍下jekyll&lt;/h2&gt;
+&lt;p&gt;基本的Jekyll结构如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;|--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;yml&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_includes&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;|--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;sb&quot;&gt;`-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   `&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2009&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;barcamp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boston&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roundup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;textile&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;|--&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_site&lt;/span&gt;
+&lt;span class=&quot;sb&quot;&gt;`-- index.html
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;_config.yml&lt;/p&gt;
+
+&lt;p&gt;配置文件，用来定义你想要的效果，设置之后就不用关心了。但如果用的是别人的模版，那你就要把里面的信息全部改成你自己的。&lt;/p&gt;
+
+&lt;p&gt;_includes&lt;/p&gt;
+
+&lt;p&gt;可以用来存放一些小的可复用的模块，方便通过{ % include file.ext %}（去掉前两个{中或者{与%中的空格，下同）灵活的调用。这条命令会调用_includes/file.ext文件。&lt;/p&gt;
+
+&lt;p&gt;_layouts&lt;/p&gt;
+
+&lt;p&gt;这是模板文件存放的位置。模板需要通过YAML front matter来定义，后面会讲到，{ { content }}标记用来将数据插入到这些模板中来。&lt;/p&gt;
+
+&lt;p&gt;_posts&lt;/p&gt;
+
+&lt;p&gt;你的动态内容，一般来说就是你的博客正文存放的文件夹。他的命名有严格的规定，必须是2012-02-22-artical-title.MARKUP这样的形式，MARKUP是你所使用标记语言的文件后缀名，根据_config.yml中设定的链接规则，可以根据你的文件名灵活调整，文章的日期和标记语言后缀与文章的标题的独立的。&lt;/p&gt;
+
+&lt;p&gt;_site&lt;/p&gt;
+
+&lt;p&gt;这个是Jekyll生成的最终的文档，不用去关心。最好把他放在你的.gitignore文件中忽略它。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;关于改别人的模版&lt;/h2&gt;
+&lt;p&gt;大概要分为几个步骤&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;改&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;_config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;yml&lt;/span&gt;&lt;/code&gt;里的信息&lt;/li&gt;
+  &lt;li&gt;改&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;/code&gt;里的图片&lt;/li&gt;
+  &lt;li&gt;改各种后缀为&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;/code&gt;的文件&lt;/li&gt;
+  &lt;li&gt;做一个&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;no&quot;&gt;Rakefile&lt;/span&gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;改’_post’里面的文章&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;rakefile&quot;&gt;关于用Rakefile自动生成文章模版并放到固定位置&lt;/h2&gt;
+&lt;p&gt;因为有YAML Front Matter和模板变量的缘故，每次我们写文章前都要写好模版参数，但这毕竟太麻烦，每次写文章都要写好头顶的东西，在根据时间填上日期，再重命名文件，实在有碍写博客的动力，不过我们有更好的方法&lt;/p&gt;
+
+&lt;p&gt;首先&lt;br /&gt;
 你要安装rake&lt;br /&gt;
 有了gem后，你就可以这样了&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;&lt;br /&gt;
 详细教程请转：&lt;a href=&quot;http://blog.csdn.net/mgsweet/article/details/51224497&quot;&gt;jekyll博客文章生成器制作&lt;/a&gt;&lt;br /&gt;
 关于rake你可以去阅读&lt;a href=&quot;http://docs.seattlerb.org/rake/&quot;&gt;官方文档&lt;/a&gt;做进一步的了解。&lt;/p&gt;
+
+&lt;p&gt;以下是我的Rakefile&lt;br /&gt;
+```&lt;br /&gt;
+task :default =&amp;gt; :new&lt;/p&gt;
+
+&lt;p&gt;require ‘fileutils’&lt;/p&gt;
+
+&lt;p&gt;desc “创建新 post”&lt;br /&gt;
+task :new do&lt;br /&gt;
+puts “请输入要创建的 post URL：”&lt;br /&gt;
+@url = STDIN.gets.chomp&lt;br /&gt;
+puts “请输入 post 标题：”&lt;br /&gt;
+@name = STDIN.gets.chomp&lt;br /&gt;
+puts “请输入 post 子标题：”&lt;br /&gt;
+@subtitle = STDIN.gets.chomp&lt;br /&gt;
+puts “请输入 post 分类，以空格分隔：”&lt;br /&gt;
+@categories = STDIN.gets.chomp&lt;br /&gt;
+puts “请输入 post 标签：”&lt;br /&gt;
+@tag = STDIN.gets.chomp&lt;br /&gt;
+@slug = “#{@url}”&lt;br /&gt;
+@slug = @slug.downcase.strip.gsub(‘ ‘, ‘-‘)&lt;br /&gt;
+@date = Time.now.strftime(“%F”)&lt;br /&gt;
+@post_name = “_posts/#{@date}-#{@slug}.md”&lt;br /&gt;
+if File.exist?(@post_name)&lt;br /&gt;
+abort(“文件名已经存在！创建失败”)&lt;br /&gt;
+end&lt;br /&gt;
+FileUtils.touch(@post_name)&lt;br /&gt;
+open(@post_name, ‘a’) do |file|&lt;br /&gt;
+file.puts “—”&lt;br /&gt;
+file.puts “layout: post”&lt;br /&gt;
+file.puts “title: &quot;#{@name}&quot;”&lt;br /&gt;
+file.puts “subtitle: &quot;\&quot;#{@subtitle}\&quot;&quot;”&lt;br /&gt;
+file.puts “author: mgsweet”&lt;br /&gt;
+file.puts “date: #{Time.now}”&lt;br /&gt;
+file.puts “categories: #{@categories}”&lt;br /&gt;
+file.puts “tag: #{@tag}”&lt;br /&gt;
+file.puts “—”&lt;br /&gt;
+end&lt;br /&gt;
+exec “vi #{@post_name}”&lt;br /&gt;
+end&lt;br /&gt;
+```&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;文章URL是在_post目录下的文件名，一个好的文件名有助你更新文章。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;发布&lt;/h2&gt;
+&lt;p&gt;终于到了介绍Github page 的时候了&lt;br /&gt;
+关于git与github的使用，可以查看我之前的文章&lt;a href=&quot;http://blog.csdn.net/mgsweet/article/details/51213196&quot;&gt;Git 与 GitHub使用指南汇总&lt;/a&gt;，这里默认你已懂得git与github的操作，在github上创建一个”username.github.io”的repo的话，girhub会默认帮你打开github page，这种命名的仓库github允许每个帐号创建一次，在这种仓库下，你可以直接把你的网页目录&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;到&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;&lt;/code&gt;分支上也没问题，不过如果你还想在这帐号做更多的博客展示的话，可以用github里的项目介绍网址生成功能，就是创建一个repo后，在seting里你可以打开github page，里面有github提供的模版，创建成功后，你要把这个repo&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt;&lt;/code&gt;下来，这时细心的你可能会发现，多了一条分支&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;/code&gt;，你只有在这条分支上放你的网页文件github才会帮你生成网站(虽然你在命令行输入&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;branch&lt;/span&gt;&lt;/code&gt;时看不到这条分支，但你还是能&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;checkout&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;/code&gt;，它不是master的分支，详细可以在github上阅读它关于github page的英文介绍)，最后把你的网页文件覆盖到&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt;&lt;/code&gt;下来的目录里再&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;上github，大概过10分钟你就可以在&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;/code&gt;看到你的网页了。&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 15:36:35 +0800</pubDate>

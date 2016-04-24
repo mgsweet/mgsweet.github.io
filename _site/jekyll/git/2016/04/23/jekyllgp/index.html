@@ -166,31 +166,128 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<p>＊目前这是一篇持续更新的博客＊</p>
+				<p><em>目前这是一篇持续更新的博客</em></p>
 
 <h2 id="bloghttpsmgsweetgithubio">##我的作品：<a href="https://mgsweet.github.io">菇星独行  |  Blog</a></h2>
 
 <h2 id="section">前言</h2>
-<p>一直都想有自己的域名，搞自己的博客，直到在github上发现了<a href="https://github.com/Huxpro/huxpro.github.io">hux的模版</a>才发现了这种神器的建blog方法，对于不懂前端的我，入门门槛并不低。不过还好，我是一个喜欢折腾的人。</p>
+<p>一直都想有自己的域名，搞自己的博客，直到在github上发现了<a href="https://github.com/Huxpro/huxpro.github.io">hux的模版</a>，才完成了这个任务，对于不懂前端的我，入门门槛并不低。不过还好，我是一个喜欢折腾的人。</p>
 
-<h2 id="section-1">正文</h2>
+<h2 id="section-1">准备</h2>
 <p>首先就是要配置最新的<br />
 ruby<br />
 gem<br />
 jekyll</p>
 
-<p>不过在神器homebrew的帮助下，这些都是几条终端语句的问题。<br />
-<code class="highlighter-rouge"><span class="n">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span></code></p>
+<p>我是mac用户，强烈推荐大家在mac中安装homebrew<br />
+在神器homebrew的帮助下，是、以上这些都是几条终端语句的问题。<br />
+<code class="highlighter-rouge"><span class="n">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">install</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span><span class="nf">.</span></code></p>
 
-<p>关于初次尝试，我推荐这篇文章—<a href="http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/">Jekyll本地搭建开发环境以及Github部署流程</a></p>
+<p>关于初次尝试，我推荐阅读这篇文章—<a href="http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/">Jekyll本地搭建开发环境以及Github部署流程</a></p>
 
-<p>###关于用Rakefile自动生成文章模版并放到固定位置<br />
-首先<br />
+<h2 id="jekyll">先来介绍下jekyll</h2>
+<p>基本的Jekyll结构如下：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="o">|--</span> <span class="n">_config</span><span class="p">.</span><span class="nf">yml</span>
+<span class="o">|--</span> <span class="n">_includes</span>
+<span class="o">|--</span> <span class="n">_layouts</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">default</span><span class="p">.</span><span class="nf">html</span>
+<span class="o">|</span>   <span class="sb">`-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   `</span><span class="o">--</span> <span class="mi">2009</span><span class="o">-</span><span class="mo">04</span><span class="o">-</span><span class="mi">26</span><span class="o">-</span><span class="n">barcamp</span><span class="o">-</span><span class="n">boston</span><span class="o">-</span><span class="mi">4</span><span class="o">-</span><span class="n">roundup</span><span class="p">.</span><span class="nf">textile</span>
+<span class="o">|--</span> <span class="n">_site</span>
+<span class="sb">`-- index.html
+</span></code></pre>
+</div>
+
+<p>_config.yml</p>
+
+<p>配置文件，用来定义你想要的效果，设置之后就不用关心了。但如果用的是别人的模版，那你就要把里面的信息全部改成你自己的。</p>
+
+<p>_includes</p>
+
+<p>可以用来存放一些小的可复用的模块，方便通过{ % include file.ext %}（去掉前两个{中或者{与%中的空格，下同）灵活的调用。这条命令会调用_includes/file.ext文件。</p>
+
+<p>_layouts</p>
+
+<p>这是模板文件存放的位置。模板需要通过YAML front matter来定义，后面会讲到，{ { content }}标记用来将数据插入到这些模板中来。</p>
+
+<p>_posts</p>
+
+<p>你的动态内容，一般来说就是你的博客正文存放的文件夹。他的命名有严格的规定，必须是2012-02-22-artical-title.MARKUP这样的形式，MARKUP是你所使用标记语言的文件后缀名，根据_config.yml中设定的链接规则，可以根据你的文件名灵活调整，文章的日期和标记语言后缀与文章的标题的独立的。</p>
+
+<p>_site</p>
+
+<p>这个是Jekyll生成的最终的文档，不用去关心。最好把他放在你的.gitignore文件中忽略它。</p>
+
+<h2 id="section-2">关于改别人的模版</h2>
+<p>大概要分为几个步骤</p>
+
+<ol>
+  <li>改<code class="highlighter-rouge"><span class="n">_config</span><span class="p">.</span><span class="nf">yml</span></code>里的信息</li>
+  <li>改<code class="highlighter-rouge"><span class="n">img</span></code>里的图片</li>
+  <li>改各种后缀为<code class="highlighter-rouge"><span class="n">html</span></code>的文件</li>
+  <li>做一个<code class="highlighter-rouge"><span class="no">Rakefile</span></code></li>
+  <li>改’_post’里面的文章</li>
+</ol>
+
+<h2 id="rakefile">关于用Rakefile自动生成文章模版并放到固定位置</h2>
+<p>因为有YAML Front Matter和模板变量的缘故，每次我们写文章前都要写好模版参数，但这毕竟太麻烦，每次写文章都要写好头顶的东西，在根据时间填上日期，再重命名文件，实在有碍写博客的动力，不过我们有更好的方法</p>
+
+<p>首先<br />
 你要安装rake<br />
 有了gem后，你就可以这样了<br />
 <code class="highlighter-rouge"><span class="n">gem</span> <span class="n">install</span> <span class="n">rake</span></code><br />
 详细教程请转：<a href="http://blog.csdn.net/mgsweet/article/details/51224497">jekyll博客文章生成器制作</a><br />
 关于rake你可以去阅读<a href="http://docs.seattlerb.org/rake/">官方文档</a>做进一步的了解。</p>
+
+<p>以下是我的Rakefile<br />
+```<br />
+task :default =&gt; :new</p>
+
+<p>require ‘fileutils’</p>
+
+<p>desc “创建新 post”<br />
+task :new do<br />
+puts “请输入要创建的 post URL：”<br />
+@url = STDIN.gets.chomp<br />
+puts “请输入 post 标题：”<br />
+@name = STDIN.gets.chomp<br />
+puts “请输入 post 子标题：”<br />
+@subtitle = STDIN.gets.chomp<br />
+puts “请输入 post 分类，以空格分隔：”<br />
+@categories = STDIN.gets.chomp<br />
+puts “请输入 post 标签：”<br />
+@tag = STDIN.gets.chomp<br />
+@slug = “#{@url}”<br />
+@slug = @slug.downcase.strip.gsub(‘ ‘, ‘-‘)<br />
+@date = Time.now.strftime(“%F”)<br />
+@post_name = “_posts/#{@date}-#{@slug}.md”<br />
+if File.exist?(@post_name)<br />
+abort(“文件名已经存在！创建失败”)<br />
+end<br />
+FileUtils.touch(@post_name)<br />
+open(@post_name, ‘a’) do |file|<br />
+file.puts “—”<br />
+file.puts “layout: post”<br />
+file.puts “title: "#{@name}"”<br />
+file.puts “subtitle: "\"#{@subtitle}\""”<br />
+file.puts “author: mgsweet”<br />
+file.puts “date: #{Time.now}”<br />
+file.puts “categories: #{@categories}”<br />
+file.puts “tag: #{@tag}”<br />
+file.puts “—”<br />
+end<br />
+exec “vi #{@post_name}”<br />
+end<br />
+```</p>
+
+<p><em>文章URL是在_post目录下的文件名，一个好的文件名有助你更新文章。</em></p>
+
+<h2 id="section-3">发布</h2>
+<p>终于到了介绍Github page 的时候了<br />
+关于git与github的使用，可以查看我之前的文章<a href="http://blog.csdn.net/mgsweet/article/details/51213196">Git 与 GitHub使用指南汇总</a>，这里默认你已懂得git与github的操作，在github上创建一个”username.github.io”的repo的话，girhub会默认帮你打开github page，这种命名的仓库github允许每个帐号创建一次，在这种仓库下，你可以直接把你的网页目录<code class="highlighter-rouge"><span class="n">push</span></code>到<code class="highlighter-rouge"><span class="n">master</span></code>分支上也没问题，不过如果你还想在这帐号做更多的博客展示的话，可以用github里的项目介绍网址生成功能，就是创建一个repo后，在seting里你可以打开github page，里面有github提供的模版，创建成功后，你要把这个repo<code class="highlighter-rouge"><span class="nb">clone</span></code>下来，这时细心的你可能会发现，多了一条分支<code class="highlighter-rouge"><span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code>，你只有在这条分支上放你的网页文件github才会帮你生成网站(虽然你在命令行输入<code class="highlighter-rouge"><span class="n">git</span> <span class="n">branch</span></code>时看不到这条分支，但你还是能<code class="highlighter-rouge"><span class="n">git</span> <span class="n">checkout</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code>，它不是master的分支，详细可以在github上阅读它关于github page的英文介绍)，最后把你的网页文件覆盖到<code class="highlighter-rouge"><span class="nb">clone</span></code>下来的目录里再<code class="highlighter-rouge"><span class="n">push</span></code>上github，大概过10分钟你就可以在<code class="highlighter-rouge"><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">username</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">io</span><span class="o">/</span><span class="n">repo_name</span><span class="p">.</span><span class="nf">github</span><span class="p">.</span><span class="nf">com</span></code>看到你的网页了。</p>
 
 
 
@@ -205,12 +302,12 @@ jekyll</p>
                     data-title="Jekyll + Github page 搭建自己免费的博客网站"
                     data-url="http://mgsweet.github.io/jekyll/git/2016/04/23/jekyllgp/"
                     data-images="http://mgsweet.github.io/img/home-bg.jpg"
-                    data-content="＊目前这是一篇持续更新的博客＊
+                    data-content="目前这是一篇持续更新的博客
 
 ##我的作品：菇星独行  |  Blog
 
 前言
-一直都想有自己的域名，搞自己的博客，直到在github上发现了hux的... | 菇歌 | Guogle " >
+一直都想有自己的域名，搞自己的博客，直到在github上发现了hux的模版... | 菇歌 | Guogle " >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
@@ -529,7 +626,7 @@ jekyll</p>
 
 <script>
     // dynamic User by Hux
-    var _baId = '4cc1f2d8f3067386cc5cdb626a202900';
+    var _baId = '90d37726257919e5ac8395449bd8054f';
 
     // Originial
     var _hmt = _hmt || [];
