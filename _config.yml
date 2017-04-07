@@ -25,11 +25,18 @@ authors:
 
 # SNS settings
 RSS: false
-weibo_username:     mgsweet
-github_username:    mgsweet
+#weibo_username:     mgsweet
+#github_username:    mgsweet
 facebook_username:  gulessness
-zhihu_username:     mgsweet
-#twitter_username:  mgsweet
+#zhihu_username:     mgsweet
+SNS: 
+  - site: github
+    username: mgsweet
+    url: https://github.com/mgsweet
+
+  - site: weibo
+    username: mgsweet
+    url: http://weibo.com/mgsweet
 
 
 
