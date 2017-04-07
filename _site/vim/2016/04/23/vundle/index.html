@@ -12,7 +12,7 @@
 
     <title>vim插件安装神器vundle - 菇歌 | Guogle</title>
 
-    <link rel="canonical" href="http://mgsweet.github.io/vim/2016/04/23/vundle/">
+    <link rel="canonical" href="http://localhost:4000/vim/2016/04/23/vundle/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -176,87 +176,87 @@
 <h2 id="vimrc">.vimrc文件配置</h2>
 <p>另外一个发现就是beiyuu的.vimrc文件配置。</p>
 
-<p><a href="https://github.com/beiyuu/vimfiles/blob/master/_vimrc">实时更新的.vimrc请点击我</a><br />
-```<br />
-set nocompatible          “不要兼容vi<br />
+<p><a href="https://github.com/beiyuu/vimfiles/blob/master/_vimrc">实时更新的.vimrc请点击我</a>
+```
+set nocompatible          “不要兼容vi
 filetype off              “必须的设置：</p>
 
-<p>“Color Settings<br />
-set colorcolumn=85           “彩色显示第85行<br />
-set t_Co=256                 “设置256色显示<br />
-set background=dark          “使用color solarized<br />
-set cursorline               “设置光标高亮显示<br />
-set cursorcolumn             “光标垂直高亮<br />
-set mouse=a                  “鼠标滚动<br />
-set ttyfast<br />
-set ruler<br />
+<p>“Color Settings
+set colorcolumn=85           “彩色显示第85行
+set t_Co=256                 “设置256色显示
+set background=dark          “使用color solarized
+set cursorline               “设置光标高亮显示
+set cursorcolumn             “光标垂直高亮
+set mouse=a                  “鼠标滚动
+set ttyfast
+set ruler
 set backspace=indent,eol,start</p>
 
-<p>“tab setting<br />
-set tabstop=2<br />
-set shiftwidth=2<br />
-set softtabstop=2<br />
-set expandtab<br />
+<p>“tab setting
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4</p>
 
-<p>set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1<br />
-set scrolloff=3<br />
-set fenc=utf-8<br />
-set autoindent<br />
-set hidden<br />
-set noswapfile<br />
-set nowritebackup<br />
+<p>set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set scrolloff=3
+set fenc=utf-8
+set autoindent
+set hidden
+set noswapfile
+set nowritebackup
 “set encoding=utf-8</p>
 
-<p>set laststatus=2<br />
-“set number                                    “显示行号<br />
-“set undofile                                  “无限undo<br />
-“set nowrap                                    “禁止自动换行<br />
+<p>set laststatus=2
+“set number                                    “显示行号
+“set undofile                                  “无限undo
+“set nowrap                                    “禁止自动换行
 “autocmd! bufwritepost _vimrc source %         “自动载入配置文件不需要重启</p>
 
-<p>“相对行号 要想相对行号起作用要放在显示行号后面<br />
-set relativenumber<br />
-“自动换行<br />
-set wrap<br />
-“GUI界面里的字体，默认有抗锯齿<br />
-set guifont=Inconsolata:h12<br />
-“将-连接符也设置为单词<br />
+<p>“相对行号 要想相对行号起作用要放在显示行号后面
+set relativenumber
+“自动换行
+set wrap
+“GUI界面里的字体，默认有抗锯齿
+set guifont=Inconsolata:h12
+“将-连接符也设置为单词
 set isk+=-</p>
 
-<p>set ignorecase “设置大小写敏感和聪明感知(小写全搜，大写完全匹配)<br />
-set smartcase<br />
-“set gdefault<br />
-set incsearch<br />
-set showmatch<br />
+<p>set ignorecase “设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
+set smartcase
+“set gdefault
+set incsearch
+set showmatch
 set hlsearch</p>
 
-<p>set numberwidth=4          “行号栏的宽度<br />
-“set columns=135           “初始窗口的宽度<br />
-“set lines=50              “初始窗口的高度<br />
+<p>set numberwidth=4          “行号栏的宽度
+“set columns=135           “初始窗口的宽度
+“set lines=50              “初始窗口的高度
 “winpos 620 45             “初始窗口的位置</p>
 
 <p>set whichwrap=b,s,&lt;,&gt;,[,]  “让退格，空格，上下箭头遇到行首行尾时自动移到下一行（包括insert模式）</p>
 
-<p>“插入模式下移动<br />
+<p>“插入模式下移动
 imap <c-j> <down>
 imap <c-k> <up>
 imap <c-l> <right>
 imap <c-h> <left></left></c-h></right></c-l></up></c-k></down></c-j></p>
 
-<p>”===================================================<br />
-“修改leader键为逗号<br />
-let mapleader=”,”<br />
+<p>”===================================================
+“修改leader键为逗号
+let mapleader=”,”
 imap jj <esc></esc></p>
 
-<p>“修改vim的正则表达<br />
-nmap / /\v<br />
+<p>“修改vim的正则表达
+nmap / /\v
 vmap / /\v</p>
 
-<p>“使用tab键来代替%进行匹配跳转<br />
+<p>“使用tab键来代替%进行匹配跳转
 nmap <tab> %
 vmap <tab> %</tab></tab></p>
 
-<p>“折叠html标签 ,fold tag<br />
+<p>“折叠html标签 ,fold tag
 nnoremap <leader>ft vatzf
 "使用,v来选择刚刚复制的段落，这样可以用来缩进
 nnoremap <leader>v v`]
@@ -268,17 +268,17 @@ nmap <leader>w <c-w>v<c-w>l
 nmap <leader>wc <c-w>c
 nmap <leader>ww <c-w>w</c-w></leader></c-w></leader></c-w></c-w></leader></c-w></p>
 
-<p>“tab切换<br />
+<p>“tab切换
 nmap <leader>t gt
 nmap <leader>r gT</leader></leader></p>
 
 <p>“<leader>空格快速保存
 nmap <leader><space> :w<cr></cr></space></leader></leader></p>
 
-<p>“取消搜索高亮<br />
+<p>“取消搜索高亮
 nmap <leader>n :noh<cr></cr></leader></p>
 
-<p>“html中的js加注释 取消注释<br />
+<p>“html中的js加注释 取消注释
 nmap <leader>h I//jj
 nmap <leader>ch ^xx
 "切换到当前目录
@@ -287,78 +287,78 @@ nmap <leader>c :execute "cd ~/Code/solar"<cr>
 "搜索替换
 nmap <leader>s :1,%s///cg<left><left><left><left></left></left></left></left></leader></cr></leader></cr></leader></leader></leader></p>
 
-<p>“系统剪切<br />
+<p>“系统剪切
 nmap <leader>y "+y
 vmap <leader>y "+y
 nmap <leader>p "+p
 vmap <leader>p "+p</leader></leader></leader></leader></p>
 
-<p>“文件类型切换<br />
+<p>“文件类型切换
 nmap <leader>fj :set ft=javascript<cr>
 nmap <leader>fc :set ft=css<cr>
 nmap <leader>fh :set ft=html<cr>
 nmap <leader>fm :set ft=mako<cr></cr></leader></cr></leader></cr></leader></cr></leader></p>
 
-<p>“设置隐藏gvim的菜单和工具栏 F2切换<br />
-set guioptions-=m<br />
-set guioptions-=T<br />
-“去除左右两边的滚动条<br />
-set go-=r<br />
+<p>“设置隐藏gvim的菜单和工具栏 F2切换
+set guioptions-=m
+set guioptions-=T
+“去除左右两边的滚动条
+set go-=r
 set go-=L</p>
 
-<p>“Vundle Settings {<br />
-set rtp+=~/.vim/bundle/vundle/<br />
+<p>“Vundle Settings {
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()</p>
 
-<p>Bundle ‘gmarik/vundle’<br />
-Bundle “mattn/emmet-vim”<br />
-Bundle ‘Auto-Pairs’<br />
-Bundle ‘matchit.zip’<br />
-Bundle ‘trailing-whitespace’<br />
-Bundle ‘cakebaker/scss-syntax.vim’<br />
-Bundle “pangloss/vim-javascript”<br />
-Bundle “othree/html5.vim”<br />
-Bundle “beiyuu/vim-bundle-mako”<br />
-Bundle “ayang/AutoComplPop”<br />
-Bundle “wavded/vim-stylus”<br />
-Bundle “mxw/vim-jsx”<br />
-Bundle “Valloric/MatchTagAlways”<br />
-Bundle “kshenoy/vim-signature”<br />
+<p>Bundle ‘gmarik/vundle’
+Bundle “mattn/emmet-vim”
+Bundle ‘Auto-Pairs’
+Bundle ‘matchit.zip’
+Bundle ‘trailing-whitespace’
+Bundle ‘cakebaker/scss-syntax.vim’
+Bundle “pangloss/vim-javascript”
+Bundle “othree/html5.vim”
+Bundle “beiyuu/vim-bundle-mako”
+Bundle “ayang/AutoComplPop”
+Bundle “wavded/vim-stylus”
+Bundle “mxw/vim-jsx”
+Bundle “Valloric/MatchTagAlways”
+Bundle “kshenoy/vim-signature”
 Bundle “bling/vim-airline”</p>
 
-<p>Bundle “dyng/ctrlsf.vim”<br />
+<p>Bundle “dyng/ctrlsf.vim”
   nmap     <leader>ff <plug>CtrlSFPrompt</plug></leader></p>
 
-<p>Bundle ‘junegunn/vim-easy-align’<br />
+<p>Bundle ‘junegunn/vim-easy-align’
   vmap <enter> <plug>(EasyAlign)
   nmap <leader>a <plug>(EasyAlign)</plug></leader></plug></enter></p>
 
-<p>Bundle “Solarized”<br />
-  colorscheme solarized<br />
-  let g:solarized_termtrans  = 1<br />
-  let g:solarized_termcolors = 256<br />
-  let g:solarized_contrast   = “high”<br />
+<p>Bundle “Solarized”
+  colorscheme solarized
+  let g:solarized_termtrans  = 1
+  let g:solarized_termcolors = 256
+  let g:solarized_contrast   = “high”
   let g:solarized_visibility = “high”</p>
 
-<p>Bundle “ervandew/supertab”<br />
+<p>Bundle “ervandew/supertab”
   let g:SuperTabDefaultCompletionType = “<c-n>"</c-n></p>
 
-<p>Bundle ‘ctrlp.vim’<br />
-  let g:ctrlp_cmd = ‘CtrlPMRU’<br />
-  let g:ctrlp_working_path_mode = ‘ra’<br />
-  “let g:ctrlp_user_command = ‘find %s -type f | grep -v “<code class="highlighter-rouge"><span class="n">cat</span> <span class="p">.</span><span class="nf">gitignore</span></code>”’<br />
+<p>Bundle ‘ctrlp.vim’
+  let g:ctrlp_cmd = ‘CtrlPMRU’
+  let g:ctrlp_working_path_mode = ‘ra’
+  “let g:ctrlp_user_command = ‘find %s -type f | grep -v “<code class="highlighter-rouge"><span class="n">cat</span> <span class="p">.</span><span class="nf">gitignore</span></code>”’
   let g:ctrlp_custom_ignore = ‘node_modules|DS_Store|git|site_packages|venv|jupiter\/static|jupiter\/template’</p>
 
-<p>Bundle ‘Lokaltog/vim-easymotion’<br />
-  let g:EasyMotion_smartcase = 0<br />
-  let g:EasyMotion_do_mapping = 0 “ Disable default mappings<br />
+<p>Bundle ‘Lokaltog/vim-easymotion’
+  let g:EasyMotion_smartcase = 0
+  let g:EasyMotion_do_mapping = 0 “ Disable default mappings
   nmap s <plug>(easymotion-s)
   nmap S <plug>(easymotion-s2)
   map <leader>j <plug>(easymotion-j)
   map <leader>k <plug>(easymotion-k)</plug></leader></plug></leader></plug></plug></p>
 
-<p>Bundle ‘The-NERD-tree’<br />
-  “设置相对行号<br />
+<p>Bundle ‘The-NERD-tree’
+  “设置相对行号
   nmap <leader>nt :NERDTree<cr>:set rnu<cr>
   let NERDTreeShowBookmarks=1
   let NERDTreeShowFiles=1
@@ -367,19 +367,19 @@ Bundle “bling/vim-airline”</p>
   let NERDTreeShowLineNumbers=1
   let NERDTreeWinPos=1</cr></cr></leader></p>
 
-<p>Bundle ‘The-NERD-Commenter’<br />
-  let NERDShutUp=1<br />
-  “支持单行和多行的选择，//格式<br />
+<p>Bundle ‘The-NERD-Commenter’
+  let NERDShutUp=1
+  “支持单行和多行的选择，//格式
   map <c-h> ,c<space></space></c-h></p>
 
-<p>Bundle ‘UltiSnips’<br />
+<p>Bundle ‘UltiSnips’
   let g:UltiSnipsExpandTrigger=”<c-j>"
   let g:UltiSnipsJumpForwardTrigger="<c-j>"
   let g:UltiSnipsJumpBackwardTrigger="<c-k>"</c-k></c-j></c-j></p>
 
-<p>“放置在Bundle的设置后，防止意外BUG<br />
-filetype plugin indent on<br />
-syntax on<br />
+<p>“放置在Bundle的设置后，防止意外BUG
+filetype plugin indent on
+syntax on
 ```</p>
 
 
@@ -392,8 +392,8 @@ syntax on<br />
                     style="text-align: right"
                     data-thread-key="/vim/2016/04/23/vundle"
                     data-title="vim插件安装神器vundle"
-                    data-url="http://mgsweet.github.io/vim/2016/04/23/vundle/"
-                    data-images="http://mgsweet.github.io/img/home-bg.jpg"
+                    data-url="http://localhost:4000/vim/2016/04/23/vundle/"
+                    data-images="http://localhost:4000/img/home-bg.jpg"
                     data-content="Vundle
 首先给出这个神器的github：https://github.com/VundleVim/Vundle.vim
 
@@ -434,7 +434,7 @@ syntax on<br />
                     <div class="ds-thread"
                         data-thread-key="/vim/2016/04/23/vundle"
                         data-title="vim插件安装神器vundle"
-                        data-url="http://mgsweet.github.io/vim/2016/04/23/vundle/" >
+                        data-url="http://localhost:4000/vim/2016/04/23/vundle/" >
                     </div>
                 </div>
                 <!-- 多说评论框 end -->
@@ -588,7 +588,7 @@ syntax on<br />
                     
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; 菇星獨行 2016
+                    Copyright &copy; 菇星獨行 2017
                     <br>
                     Theme by <a href="http://huangxuan.me">Hux</a> |
                     <iframe

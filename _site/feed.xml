@@ -2,25 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>菇星獨行</title>
-    <description>Mr.GU&#39;s Imagination</description>
-    <link>http://mgsweet.github.io/</link>
-    <atom:link href="http://mgsweet.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 May 2016 09:04:14 +0800</pubDate>
-    <lastBuildDate>Fri, 13 May 2016 09:04:14 +0800</lastBuildDate>
-    <generator>Jekyll v3.0.3</generator>
+    <description>Mr.GU's Imagination</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 07 Apr 2017 22:13:35 +0800</pubDate>
+    <lastBuildDate>Fri, 07 Apr 2017 22:13:35 +0800</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>查询api授权申请</title>
+        <description>&lt;p&gt;听说要帮贵公司宣传一下才能拿到key：&lt;/p&gt;
+
+&lt;p&gt;宣传网址：&lt;a href=&quot;https://mgsweet.github.io/ownPage/forAPI.html&quot;&gt;快递宣传&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Apr 2017 21:23:33 +0800</pubDate>
+        <link>http://localhost:4000/uwp/2017/04/07/forapikey/</link>
+        <guid isPermaLink="true">http://localhost:4000/uwp/2017/04/07/forapikey/</guid>
+        
+        
+        <category>uwp</category>
+        
+      </item>
     
       <item>
         <title>遇见你，真好</title>
         <description>&lt;p&gt;&lt;em&gt;傻的吗，这可是你写技术博客的地方…你只菇生，快滚回去打码…&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;如果你觉得这博客的页面好好看的话，我十分乐意接受你的表扬…&lt;br /&gt;
+  &lt;p&gt;如果你觉得这博客的页面好好看的话，我十分乐意接受你的表扬…
 （嘘声：“哪有人乐意接受表扬这样说话的..你只臭不要脸的菇生….“   菇生：“嘿嘿嘿～”）&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 25 Apr 2016 17:37:43 +0800</pubDate>
-        <link>http://mgsweet.github.io/2016/04/25/nicetomu/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/2016/04/25/nicetomu/</guid>
+        <link>http://localhost:4000/2016/04/25/nicetomu/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/25/nicetomu/</guid>
         
         
       </item>
@@ -34,15 +49,15 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;菇星导航&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;想知道菇生在干什么？欢迎访问以下网站&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&quot;http://mensu.github.io&quot; target=&quot;_blank&quot;&gt;Mr.GU’s  Blog  |  菇星独行&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://github.com/mgsweet&quot; target=&quot;_blank&quot;&gt;Mr.GU’s  Github&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;想知道菇生在干什么？欢迎访问以下网站&lt;/em&gt;
+&lt;a href=&quot;http://mensu.github.io&quot; target=&quot;_blank&quot;&gt;Mr.GU’s  Blog  |  菇星独行&lt;/a&gt;
+&lt;a href=&quot;http://github.com/mgsweet&quot; target=&quot;_blank&quot;&gt;Mr.GU’s  Github&lt;/a&gt;
 &lt;a href=&quot;http://facebook.com/mgsweet&quot; target=&quot;_blank&quot;&gt;Mr.GU’s  Facebook&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 16:02:53 +0800</pubDate>
-        <link>http://mgsweet.github.io/blog/2016/04/23/introduction/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/blog/2016/04/23/introduction/</guid>
+        <link>http://localhost:4000/blog/2016/04/23/introduction/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/04/23/introduction/</guid>
         
         <category>blog</category>
         
@@ -63,87 +78,87 @@
 &lt;h2 id=&quot;vimrc&quot;&gt;.vimrc文件配置&lt;/h2&gt;
 &lt;p&gt;另外一个发现就是beiyuu的.vimrc文件配置。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/beiyuu/vimfiles/blob/master/_vimrc&quot;&gt;实时更新的.vimrc请点击我&lt;/a&gt;&lt;br /&gt;
-```&lt;br /&gt;
-set nocompatible          “不要兼容vi&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/beiyuu/vimfiles/blob/master/_vimrc&quot;&gt;实时更新的.vimrc请点击我&lt;/a&gt;
+```
+set nocompatible          “不要兼容vi
 filetype off              “必须的设置：&lt;/p&gt;
 
-&lt;p&gt;“Color Settings&lt;br /&gt;
-set colorcolumn=85           “彩色显示第85行&lt;br /&gt;
-set t_Co=256                 “设置256色显示&lt;br /&gt;
-set background=dark          “使用color solarized&lt;br /&gt;
-set cursorline               “设置光标高亮显示&lt;br /&gt;
-set cursorcolumn             “光标垂直高亮&lt;br /&gt;
-set mouse=a                  “鼠标滚动&lt;br /&gt;
-set ttyfast&lt;br /&gt;
-set ruler&lt;br /&gt;
+&lt;p&gt;“Color Settings
+set colorcolumn=85           “彩色显示第85行
+set t_Co=256                 “设置256色显示
+set background=dark          “使用color solarized
+set cursorline               “设置光标高亮显示
+set cursorcolumn             “光标垂直高亮
+set mouse=a                  “鼠标滚动
+set ttyfast
+set ruler
 set backspace=indent,eol,start&lt;/p&gt;
 
-&lt;p&gt;“tab setting&lt;br /&gt;
-set tabstop=2&lt;br /&gt;
-set shiftwidth=2&lt;br /&gt;
-set softtabstop=2&lt;br /&gt;
-set expandtab&lt;br /&gt;
+&lt;p&gt;“tab setting
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4&lt;/p&gt;
 
-&lt;p&gt;set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1&lt;br /&gt;
-set scrolloff=3&lt;br /&gt;
-set fenc=utf-8&lt;br /&gt;
-set autoindent&lt;br /&gt;
-set hidden&lt;br /&gt;
-set noswapfile&lt;br /&gt;
-set nowritebackup&lt;br /&gt;
+&lt;p&gt;set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set scrolloff=3
+set fenc=utf-8
+set autoindent
+set hidden
+set noswapfile
+set nowritebackup
 “set encoding=utf-8&lt;/p&gt;
 
-&lt;p&gt;set laststatus=2&lt;br /&gt;
-“set number                                    “显示行号&lt;br /&gt;
-“set undofile                                  “无限undo&lt;br /&gt;
-“set nowrap                                    “禁止自动换行&lt;br /&gt;
+&lt;p&gt;set laststatus=2
+“set number                                    “显示行号
+“set undofile                                  “无限undo
+“set nowrap                                    “禁止自动换行
 “autocmd! bufwritepost _vimrc source %         “自动载入配置文件不需要重启&lt;/p&gt;
 
-&lt;p&gt;“相对行号 要想相对行号起作用要放在显示行号后面&lt;br /&gt;
-set relativenumber&lt;br /&gt;
-“自动换行&lt;br /&gt;
-set wrap&lt;br /&gt;
-“GUI界面里的字体，默认有抗锯齿&lt;br /&gt;
-set guifont=Inconsolata:h12&lt;br /&gt;
-“将-连接符也设置为单词&lt;br /&gt;
+&lt;p&gt;“相对行号 要想相对行号起作用要放在显示行号后面
+set relativenumber
+“自动换行
+set wrap
+“GUI界面里的字体，默认有抗锯齿
+set guifont=Inconsolata:h12
+“将-连接符也设置为单词
 set isk+=-&lt;/p&gt;
 
-&lt;p&gt;set ignorecase “设置大小写敏感和聪明感知(小写全搜，大写完全匹配)&lt;br /&gt;
-set smartcase&lt;br /&gt;
-“set gdefault&lt;br /&gt;
-set incsearch&lt;br /&gt;
-set showmatch&lt;br /&gt;
+&lt;p&gt;set ignorecase “设置大小写敏感和聪明感知(小写全搜，大写完全匹配)
+set smartcase
+“set gdefault
+set incsearch
+set showmatch
 set hlsearch&lt;/p&gt;
 
-&lt;p&gt;set numberwidth=4          “行号栏的宽度&lt;br /&gt;
-“set columns=135           “初始窗口的宽度&lt;br /&gt;
-“set lines=50              “初始窗口的高度&lt;br /&gt;
+&lt;p&gt;set numberwidth=4          “行号栏的宽度
+“set columns=135           “初始窗口的宽度
+“set lines=50              “初始窗口的高度
 “winpos 620 45             “初始窗口的位置&lt;/p&gt;
 
 &lt;p&gt;set whichwrap=b,s,&amp;lt;,&amp;gt;,[,]  “让退格，空格，上下箭头遇到行首行尾时自动移到下一行（包括insert模式）&lt;/p&gt;
 
-&lt;p&gt;“插入模式下移动&lt;br /&gt;
+&lt;p&gt;“插入模式下移动
 imap &lt;c-j&gt; &lt;down&gt;
 imap &lt;c-k&gt; &lt;up&gt;
 imap &lt;c-l&gt; &lt;right&gt;
 imap &lt;c-h&gt; &lt;left&gt;&lt;/left&gt;&lt;/c-h&gt;&lt;/right&gt;&lt;/c-l&gt;&lt;/up&gt;&lt;/c-k&gt;&lt;/down&gt;&lt;/c-j&gt;&lt;/p&gt;
 
-&lt;p&gt;”===================================================&lt;br /&gt;
-“修改leader键为逗号&lt;br /&gt;
-let mapleader=”,”&lt;br /&gt;
+&lt;p&gt;”===================================================
+“修改leader键为逗号
+let mapleader=”,”
 imap jj &lt;esc&gt;&lt;/esc&gt;&lt;/p&gt;
 
-&lt;p&gt;“修改vim的正则表达&lt;br /&gt;
-nmap / /\v&lt;br /&gt;
+&lt;p&gt;“修改vim的正则表达
+nmap / /\v
 vmap / /\v&lt;/p&gt;
 
-&lt;p&gt;“使用tab键来代替%进行匹配跳转&lt;br /&gt;
+&lt;p&gt;“使用tab键来代替%进行匹配跳转
 nmap &lt;tab&gt; %
 vmap &lt;tab&gt; %&lt;/tab&gt;&lt;/tab&gt;&lt;/p&gt;
 
-&lt;p&gt;“折叠html标签 ,fold tag&lt;br /&gt;
+&lt;p&gt;“折叠html标签 ,fold tag
 nnoremap &lt;leader&gt;ft vatzf
 &quot;使用,v来选择刚刚复制的段落，这样可以用来缩进
 nnoremap &lt;leader&gt;v v`]
@@ -155,17 +170,17 @@ nmap &lt;leader&gt;w &lt;c-w&gt;v&lt;c-w&gt;l
 nmap &lt;leader&gt;wc &lt;c-w&gt;c
 nmap &lt;leader&gt;ww &lt;c-w&gt;w&lt;/c-w&gt;&lt;/leader&gt;&lt;/c-w&gt;&lt;/leader&gt;&lt;/c-w&gt;&lt;/c-w&gt;&lt;/leader&gt;&lt;/c-w&gt;&lt;/p&gt;
 
-&lt;p&gt;“tab切换&lt;br /&gt;
+&lt;p&gt;“tab切换
 nmap &lt;leader&gt;t gt
 nmap &lt;leader&gt;r gT&lt;/leader&gt;&lt;/leader&gt;&lt;/p&gt;
 
 &lt;p&gt;“&lt;leader&gt;空格快速保存
 nmap &lt;leader&gt;&lt;space&gt; :w&lt;cr&gt;&lt;/cr&gt;&lt;/space&gt;&lt;/leader&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;“取消搜索高亮&lt;br /&gt;
+&lt;p&gt;“取消搜索高亮
 nmap &lt;leader&gt;n :noh&lt;cr&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;“html中的js加注释 取消注释&lt;br /&gt;
+&lt;p&gt;“html中的js加注释 取消注释
 nmap &lt;leader&gt;h I//jj
 nmap &lt;leader&gt;ch ^xx
 &quot;切换到当前目录
@@ -174,104 +189,104 @@ nmap &lt;leader&gt;c :execute &quot;cd ~/Code/solar&quot;&lt;cr&gt;
 &quot;搜索替换
 nmap &lt;leader&gt;s :1,%s///cg&lt;left&gt;&lt;left&gt;&lt;left&gt;&lt;left&gt;&lt;/left&gt;&lt;/left&gt;&lt;/left&gt;&lt;/left&gt;&lt;/leader&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/leader&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;“系统剪切&lt;br /&gt;
+&lt;p&gt;“系统剪切
 nmap &lt;leader&gt;y &quot;+y
 vmap &lt;leader&gt;y &quot;+y
 nmap &lt;leader&gt;p &quot;+p
 vmap &lt;leader&gt;p &quot;+p&lt;/leader&gt;&lt;/leader&gt;&lt;/leader&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;“文件类型切换&lt;br /&gt;
+&lt;p&gt;“文件类型切换
 nmap &lt;leader&gt;fj :set ft=javascript&lt;cr&gt;
 nmap &lt;leader&gt;fc :set ft=css&lt;cr&gt;
 nmap &lt;leader&gt;fh :set ft=html&lt;cr&gt;
 nmap &lt;leader&gt;fm :set ft=mako&lt;cr&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;“设置隐藏gvim的菜单和工具栏 F2切换&lt;br /&gt;
-set guioptions-=m&lt;br /&gt;
-set guioptions-=T&lt;br /&gt;
-“去除左右两边的滚动条&lt;br /&gt;
-set go-=r&lt;br /&gt;
+&lt;p&gt;“设置隐藏gvim的菜单和工具栏 F2切换
+set guioptions-=m
+set guioptions-=T
+“去除左右两边的滚动条
+set go-=r
 set go-=L&lt;/p&gt;
 
-&lt;p&gt;“Vundle Settings {&lt;br /&gt;
-set rtp+=~/.vim/bundle/vundle/&lt;br /&gt;
+&lt;p&gt;“Vundle Settings {
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘gmarik/vundle’&lt;br /&gt;
-Bundle “mattn/emmet-vim”&lt;br /&gt;
-Bundle ‘Auto-Pairs’&lt;br /&gt;
-Bundle ‘matchit.zip’&lt;br /&gt;
-Bundle ‘trailing-whitespace’&lt;br /&gt;
-Bundle ‘cakebaker/scss-syntax.vim’&lt;br /&gt;
-Bundle “pangloss/vim-javascript”&lt;br /&gt;
-Bundle “othree/html5.vim”&lt;br /&gt;
-Bundle “beiyuu/vim-bundle-mako”&lt;br /&gt;
-Bundle “ayang/AutoComplPop”&lt;br /&gt;
-Bundle “wavded/vim-stylus”&lt;br /&gt;
-Bundle “mxw/vim-jsx”&lt;br /&gt;
-Bundle “Valloric/MatchTagAlways”&lt;br /&gt;
-Bundle “kshenoy/vim-signature”&lt;br /&gt;
+&lt;p&gt;Bundle ‘gmarik/vundle’
+Bundle “mattn/emmet-vim”
+Bundle ‘Auto-Pairs’
+Bundle ‘matchit.zip’
+Bundle ‘trailing-whitespace’
+Bundle ‘cakebaker/scss-syntax.vim’
+Bundle “pangloss/vim-javascript”
+Bundle “othree/html5.vim”
+Bundle “beiyuu/vim-bundle-mako”
+Bundle “ayang/AutoComplPop”
+Bundle “wavded/vim-stylus”
+Bundle “mxw/vim-jsx”
+Bundle “Valloric/MatchTagAlways”
+Bundle “kshenoy/vim-signature”
 Bundle “bling/vim-airline”&lt;/p&gt;
 
-&lt;p&gt;Bundle “dyng/ctrlsf.vim”&lt;br /&gt;
+&lt;p&gt;Bundle “dyng/ctrlsf.vim”
   nmap     &lt;leader&gt;ff &lt;plug&gt;CtrlSFPrompt&lt;/plug&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘junegunn/vim-easy-align’&lt;br /&gt;
+&lt;p&gt;Bundle ‘junegunn/vim-easy-align’
   vmap &lt;enter&gt; &lt;plug&gt;(EasyAlign)
   nmap &lt;leader&gt;a &lt;plug&gt;(EasyAlign)&lt;/plug&gt;&lt;/leader&gt;&lt;/plug&gt;&lt;/enter&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle “Solarized”&lt;br /&gt;
-  colorscheme solarized&lt;br /&gt;
-  let g:solarized_termtrans  = 1&lt;br /&gt;
-  let g:solarized_termcolors = 256&lt;br /&gt;
-  let g:solarized_contrast   = “high”&lt;br /&gt;
+&lt;p&gt;Bundle “Solarized”
+  colorscheme solarized
+  let g:solarized_termtrans  = 1
+  let g:solarized_termcolors = 256
+  let g:solarized_contrast   = “high”
   let g:solarized_visibility = “high”&lt;/p&gt;
 
-&lt;p&gt;Bundle “ervandew/supertab”&lt;br /&gt;
+&lt;p&gt;Bundle “ervandew/supertab”
   let g:SuperTabDefaultCompletionType = “&lt;c-n&gt;&quot;&lt;/c-n&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘ctrlp.vim’&lt;br /&gt;
-  let g:ctrlp_cmd = ‘CtrlPMRU’&lt;br /&gt;
-  let g:ctrlp_working_path_mode = ‘ra’&lt;br /&gt;
-  “let g:ctrlp_user_command = ‘find %s -type f | grep -v “&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gitignore&lt;/span&gt;&lt;/code&gt;”’&lt;br /&gt;
+&lt;p&gt;Bundle ‘ctrlp.vim’
+  let g:ctrlp_cmd = ‘CtrlPMRU’
+  let g:ctrlp_working_path_mode = ‘ra’
+  “let g:ctrlp_user_command = ‘find %s -type f | grep -v “&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gitignore&lt;/span&gt;&lt;/code&gt;”’
   let g:ctrlp_custom_ignore = ‘node_modules|DS_Store|git|site_packages|venv|jupiter\/static|jupiter\/template’&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘Lokaltog/vim-easymotion’&lt;br /&gt;
-  let g:EasyMotion_smartcase = 0&lt;br /&gt;
-  let g:EasyMotion_do_mapping = 0 “ Disable default mappings&lt;br /&gt;
+&lt;p&gt;Bundle ‘Lokaltog/vim-easymotion’
+  let g:EasyMotion_smartcase = 0
+  let g:EasyMotion_do_mapping = 0 “ Disable default mappings
   nmap s &lt;plug&gt;(easymotion-s)
   nmap S &lt;plug&gt;(easymotion-s2)
   map &lt;leader&gt;j &lt;plug&gt;(easymotion-j)
   map &lt;leader&gt;k &lt;plug&gt;(easymotion-k)&lt;/plug&gt;&lt;/leader&gt;&lt;/plug&gt;&lt;/leader&gt;&lt;/plug&gt;&lt;/plug&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘The-NERD-tree’&lt;br /&gt;
-  “设置相对行号&lt;br /&gt;
+&lt;p&gt;Bundle ‘The-NERD-tree’
+  “设置相对行号
   nmap &lt;leader&gt;nt :NERDTree&lt;cr&gt;:set rnu&lt;cr&gt;
   let NERDTreeShowBookmarks=1
   let NERDTreeShowFiles=1
   let NERDTreeShowHidden=1
-  let NERDTreeIgnore=[&#39;\.$&#39;,&#39;\~$&#39;]
+  let NERDTreeIgnore=['\.$','\~$']
   let NERDTreeShowLineNumbers=1
   let NERDTreeWinPos=1&lt;/cr&gt;&lt;/cr&gt;&lt;/leader&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘The-NERD-Commenter’&lt;br /&gt;
-  let NERDShutUp=1&lt;br /&gt;
-  “支持单行和多行的选择，//格式&lt;br /&gt;
+&lt;p&gt;Bundle ‘The-NERD-Commenter’
+  let NERDShutUp=1
+  “支持单行和多行的选择，//格式
   map &lt;c-h&gt; ,c&lt;space&gt;&lt;/space&gt;&lt;/c-h&gt;&lt;/p&gt;
 
-&lt;p&gt;Bundle ‘UltiSnips’&lt;br /&gt;
+&lt;p&gt;Bundle ‘UltiSnips’
   let g:UltiSnipsExpandTrigger=”&lt;c-j&gt;&quot;
   let g:UltiSnipsJumpForwardTrigger=&quot;&lt;c-j&gt;&quot;
   let g:UltiSnipsJumpBackwardTrigger=&quot;&lt;c-k&gt;&quot;&lt;/c-k&gt;&lt;/c-j&gt;&lt;/c-j&gt;&lt;/p&gt;
 
-&lt;p&gt;“放置在Bundle的设置后，防止意外BUG&lt;br /&gt;
-filetype plugin indent on&lt;br /&gt;
-syntax on&lt;br /&gt;
+&lt;p&gt;“放置在Bundle的设置后，防止意外BUG
+filetype plugin indent on
+syntax on
 ```&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Apr 2016 15:59:35 +0800</pubDate>
-        <link>http://mgsweet.github.io/vim/2016/04/23/vundle/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/vim/2016/04/23/vundle/</guid>
+        <link>http://localhost:4000/vim/2016/04/23/vundle/</link>
+        <guid isPermaLink="true">http://localhost:4000/vim/2016/04/23/vundle/</guid>
         
         <category>vim</category>
         
@@ -289,84 +304,84 @@ syntax on&lt;br /&gt;
 &lt;p&gt;最近还发现了一个问题，不知道大家有没有相同的问题，不知道是不是装了极路由的缘故还是校园网的缘故，我只有用手机热点才能与github连接，如果连wifi的话会弹出一下信息,就是说你见到以下报错可能不是你的ssh出问题，而是….你用了校园网？持续更新&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;fatal: ‘origin’ does not appear to be a git repository&lt;br /&gt;
+  &lt;p&gt;fatal: ‘origin’ does not appear to be a git repository
 fatal: Could not read from remote repository.&lt;/p&gt;
 
-  &lt;p&gt;Please make sure you have the correct access rights&lt;br /&gt;
+  &lt;p&gt;Please make sure you have the correct access rights
 and the repository exists.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;自我学习过程中还是遇到不少问题的，如果下载了客户端的话貌似会自动生成一个github_rsa公钥，反正我是删了重建的，那些公钥会放在隐藏文件夹，可以在命令行内进入再输入cat 加那个public的公钥名字就可以见到里面的内容了。然后，作为一个mac用户，强烈推介大家把终端的bash换成oh-my-zsh，高亮的字体和快捷键tab功能的改进都很有助于命令行上解决问题，大大提高效率，或者在安装的时候你还会用到homebrew什么的，也是很强大，极力推荐（mac用户）。最后呢，大家遇到问题多点百度谷歌知乎必应stack overflow咯，我也是新手，大家互相指教。&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;这里先安利一下我的github:https://github.com/mgsweet，欢迎互粉互相学习，里面有一个今天打的改进eden输出的小程序，欢迎fork和pull request哈哈&lt;br /&gt;
+  &lt;p&gt;这里先安利一下我的github:https://github.com/mgsweet，欢迎互粉互相学习，里面有一个今天打的改进eden输出的小程序，欢迎fork和pull request哈哈
 https://github.com/mgsweet/Eden-Answer-Improvement&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;1.强烈推荐廖雪峰老师的git与github教程，我也是在那里学的，重点是….中文版！生动有趣，通俗易懂。&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;1.强烈推荐廖雪峰老师的git与github教程，我也是在那里学的，重点是….中文版！生动有趣，通俗易懂。&lt;/strong&gt;
 &amp;gt;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;2.git使用简易指南，这个更加简洁，方便指令查找&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;2.git使用简易指南，这个更加简洁，方便指令查找&lt;/strong&gt;
 &amp;gt;http://www.bootcss.com/p/git-guide/&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3.github常见操作和常见错误！错误提示：fatal: remote origin already exists.(这个是本人在连接本地库和github库时遇到的问题，在这里找到了解答)&lt;/strong&gt;&lt;br /&gt;
-&amp;gt;http://blog.csdn.net/god_wot/article/details/10522405&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;3.github常见操作和常见错误！错误提示：fatal: remote origin already exists.(这个是本人在连接本地库和github库时遇到的问题，在这里找到了解答)&lt;/strong&gt;
+&amp;gt;http://blog.csdn.net/god_wot/article/details/10522405
 另外查看当前传输状态可能会用到 git remote -v指令&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;4.Git配置技巧&lt;/strong&gt;&lt;br /&gt;
-&amp;gt;http://blog.csdn.net/wirelessqa/article/details/8572928&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;4.Git配置技巧&lt;/strong&gt;
+&amp;gt;http://blog.csdn.net/wirelessqa/article/details/8572928
 &amp;gt;配置你的用户名邮箱什么的，反正我也是用到了&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;5.制造公钥，同一台电脑设置多个公钥与不同GITHUB帐号交互，重命名公钥&lt;/strong&gt;&lt;br /&gt;
-&amp;gt;http://jingyan.todgo.com/shuma/2161775tdu.html&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;5.制造公钥，同一台电脑设置多个公钥与不同GITHUB帐号交互，重命名公钥&lt;/strong&gt;
+&amp;gt;http://jingyan.todgo.com/shuma/2161775tdu.html
 &amp;gt;之前设置了多个公钥导致ssh连接不上，坑爹&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;6.最后分享下自己的整理&lt;/strong&gt;&lt;br /&gt;
-git 命令&lt;br /&gt;
-1.创建版本库&lt;br /&gt;
-mkdir learngit(创建目录)&lt;br /&gt;
-cd learngit&lt;br /&gt;
-pwd(显示当前目录)&lt;br /&gt;
-git add&lt;br /&gt;
-git commit -m “what change you have make”&lt;br /&gt;
-git status(显示结果)&lt;br /&gt;
-git diff(显示不同)&lt;br /&gt;
-git log (查看变化) —pretty=oneline(显示在一行)&lt;br /&gt;
-HEAD 当前版本&lt;br /&gt;
-HEAD^上一版本&lt;br /&gt;
-HEAD~100上一百个版本&lt;br /&gt;
-git reset —hard HEAD&lt;br /&gt;
-git reset 1231244124&lt;br /&gt;
-git reflog 纪录每次命令（后悔药）&lt;br /&gt;
-git diff HEAD — readme.txt对比当前编辑版本与原来版本的区别&lt;br /&gt;
-git checkout — file （可以丢弃工作区的修改）&lt;br /&gt;
-git reset HEAD read.txt(可以清理暂存区)&lt;br /&gt;
-git rm (git的删除，算是一种修改)&lt;br /&gt;
-ssh-keygen -t rss -C “mgsweet@126.com”&lt;br /&gt;
-git remote add origin git@github.com:mgsweet/learngit.git&lt;br /&gt;
-git push -u origin master&lt;br /&gt;
-git push origin master&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;6.最后分享下自己的整理&lt;/strong&gt;
+git 命令
+1.创建版本库
+mkdir learngit(创建目录)
+cd learngit
+pwd(显示当前目录)
+git add
+git commit -m “what change you have make”
+git status(显示结果)
+git diff(显示不同)
+git log (查看变化) —pretty=oneline(显示在一行)
+HEAD 当前版本
+HEAD^上一版本
+HEAD~100上一百个版本
+git reset —hard HEAD
+git reset 1231244124
+git reflog 纪录每次命令（后悔药）
+git diff HEAD — readme.txt对比当前编辑版本与原来版本的区别
+git checkout — file （可以丢弃工作区的修改）
+git reset HEAD read.txt(可以清理暂存区)
+git rm (git的删除，算是一种修改)
+ssh-keygen -t rss -C “mgsweet@126.com”
+git remote add origin git@github.com:mgsweet/learngit.git
+git push -u origin master
+git push origin master
 git pull origin master&lt;/p&gt;
 
-&lt;p&gt;git clone git@github.com:mgsweet/gitskills.git&lt;br /&gt;
-git checkout -b dev = git branch dev + git checkout dev + switched to branch ‘dev’(创建切换分支)&lt;br /&gt;
-git branch(查看当前分支)&lt;br /&gt;
-git merge ＋想合并的分支 (合并分支)&lt;br /&gt;
-git branch -d 删除分支&lt;br /&gt;
-git —graph —pretty=oneline —abbrev-commit&lt;br /&gt;
-git merge —no-ff -m “merge with no-ff” dev (no-ff表示禁止fast forward)&lt;br /&gt;
-git stash 暂时存储工作区&lt;br /&gt;
-git stash list 列出暂存区&lt;br /&gt;
-git stash apply 恢复&lt;br /&gt;
-git stash drop删除&lt;br /&gt;
-git stash pop恢复同时删除&lt;br /&gt;
-git stash apply stash@{0}恢复指定的stash&lt;br /&gt;
+&lt;p&gt;git clone git@github.com:mgsweet/gitskills.git
+git checkout -b dev = git branch dev + git checkout dev + switched to branch ‘dev’(创建切换分支)
+git branch(查看当前分支)
+git merge ＋想合并的分支 (合并分支)
+git branch -d 删除分支
+git —graph —pretty=oneline —abbrev-commit
+git merge —no-ff -m “merge with no-ff” dev (no-ff表示禁止fast forward)
+git stash 暂时存储工作区
+git stash list 列出暂存区
+git stash apply 恢复
+git stash drop删除
+git stash pop恢复同时删除
+git stash apply stash@{0}恢复指定的stash
 git branch -D feature-vulcan强制删除没合成的分支&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 15:54:55 +0800</pubDate>
-        <link>http://mgsweet.github.io/git/2016/04/23/gitgithub/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/git/2016/04/23/gitgithub/</guid>
+        <link>http://localhost:4000/git/2016/04/23/gitgithub/</link>
+        <guid isPermaLink="true">http://localhost:4000/git/2016/04/23/gitgithub/</guid>
         
         <category>git</category>
         
@@ -383,7 +398,7 @@ git branch -D feature-vulcan强制删除没合成的分支&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;文章部分内容参考了&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;文章部分内容参考了&lt;/strong&gt;
 &amp;gt; http://blog.csdn.net/liuzhanchen1987/article/details/7712640&lt;/p&gt;
 
 &lt;p&gt;##下面是传递的方法&lt;/p&gt;
@@ -587,8 +602,8 @@ git branch -D feature-vulcan强制删除没合成的分支&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 15:53:20 +0800</pubDate>
-        <link>http://mgsweet.github.io/c++/2016/04/23/homework/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/c++/2016/04/23/homework/</guid>
+        <link>http://localhost:4000/c++/2016/04/23/homework/</link>
+        <guid isPermaLink="true">http://localhost:4000/c++/2016/04/23/homework/</guid>
         
         <category>c++</category>
         
@@ -606,31 +621,31 @@ git branch -D feature-vulcan强制删除没合成的分支&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;如果大家使用中遇到任何bug，十分希望大家在评论区或github上的issues里作出反馈，衷心感谢。&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;附上github地址：&lt;br /&gt;
+  &lt;p&gt;附上github地址：
 https://github.com/mgsweet/Eden-Answer-Improvement/blob/master/README.md&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;当然，你可以在github上阅读源码并提出requests&lt;/p&gt;
 
-&lt;p&gt;#使用指南&lt;br /&gt;
+&lt;p&gt;#使用指南
 1.首先在命令行中运行应用，选择功能，输入1是去除，输入2是补充序号。然后把你要改变的内容全部复制到命令行即可。(目前由于WIN下控制台不支持复制，所以就是说用WIN的同学不能使用，MAC下可以使用的)&lt;/p&gt;
 
-&lt;p&gt;感谢luojj的试用&lt;br /&gt;
-##功能1演示&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/1.1.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;感谢luojj的试用
+##功能1演示
+&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/1.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/1.1.png&quot; alt=&quot;&quot; /&gt;
  &lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/1.2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;##功能2演示&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/2.2.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
- &lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/2.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/2.2.png&quot; alt=&quot;&quot; /&gt;
+ &lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/2.png&quot; alt=&quot;&quot; /&gt;
  &lt;img src=&quot;https://raw.githubusercontent.com/mgsweet/Eden-Answer-Improvement/master/image/2.1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 15:51:20 +0800</pubDate>
-        <link>http://mgsweet.github.io/%E5%B0%8F%E5%B7%A5%E5%85%B7/2016/04/23/edendbugintro/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/%E5%B0%8F%E5%B7%A5%E5%85%B7/2016/04/23/edendbugintro/</guid>
+        <link>http://localhost:4000/%E5%B0%8F%E5%B7%A5%E5%85%B7/2016/04/23/edendbugintro/</link>
+        <guid isPermaLink="true">http://localhost:4000/%E5%B0%8F%E5%B7%A5%E5%85%B7/2016/04/23/edendbugintro/</guid>
         
         <category>小创意</category>
         
@@ -648,8 +663,8 @@ https://github.com/mgsweet/Eden-Answer-Improvement/blob/master/README.md&lt;/p&g
 &lt;p&gt;参考&lt;a href=&quot;http://blog.csdn.net/sky453589103/article/details/43575241&quot;&gt;vim环境配置之YoucomplemeMe使用出错&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Apr 2016 15:47:58 +0800</pubDate>
-        <link>http://mgsweet.github.io/vim/2016/04/23/vimyum/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/vim/2016/04/23/vimyum/</guid>
+        <link>http://localhost:4000/vim/2016/04/23/vimyum/</link>
+        <guid isPermaLink="true">http://localhost:4000/vim/2016/04/23/vimyum/</guid>
         
         <category>vim</category>
         
@@ -668,13 +683,13 @@ https://github.com/mgsweet/Eden-Answer-Improvement/blob/master/README.md&lt;/p&g
 &lt;p&gt;一直都想有自己的域名，搞自己的博客，直到在github上发现了&lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;hux的模版&lt;/a&gt;，才完成了这个任务，对于不懂前端的我，入门门槛并不低。不过还好，我是一个喜欢折腾的人。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;准备&lt;/h2&gt;
-&lt;p&gt;首先就是要配置最新的&lt;br /&gt;
-ruby&lt;br /&gt;
-gem&lt;br /&gt;
+&lt;p&gt;首先就是要配置最新的
+ruby
+gem
 jekyll&lt;/p&gt;
 
-&lt;p&gt;我是mac用户，强烈推荐大家在mac中安装homebrew&lt;br /&gt;
-在神器homebrew的帮助下，是、以上这些都是几条终端语句的问题。&lt;br /&gt;
+&lt;p&gt;我是mac用户，强烈推荐大家在mac中安装homebrew
+在神器homebrew的帮助下，是、以上这些都是几条终端语句的问题。
 &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;关于初次尝试，我推荐阅读这篇文章—&lt;a href=&quot;http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/&quot;&gt;Jekyll本地搭建开发环境以及Github部署流程&lt;/a&gt;&lt;/p&gt;
@@ -729,64 +744,64 @@ jekyll&lt;/p&gt;
 &lt;h2 id=&quot;rakefile&quot;&gt;关于用Rakefile自动生成文章模版并放到固定位置&lt;/h2&gt;
 &lt;p&gt;因为有YAML Front Matter和模板变量的缘故，每次我们写文章前都要写好模版参数，但这毕竟太麻烦，每次写文章都要写好头顶的东西，在根据时间填上日期，再重命名文件，实在有碍写博客的动力，不过我们有更好的方法&lt;/p&gt;
 
-&lt;p&gt;首先&lt;br /&gt;
-你要安装rake&lt;br /&gt;
-有了gem后，你就可以这样了&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;&lt;br /&gt;
-详细教程请转：&lt;a href=&quot;http://blog.csdn.net/mgsweet/article/details/51224497&quot;&gt;jekyll博客文章生成器制作&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;首先
+你要安装rake
+有了gem后，你就可以这样了
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;
+详细教程请转：&lt;a href=&quot;http://blog.csdn.net/mgsweet/article/details/51224497&quot;&gt;jekyll博客文章生成器制作&lt;/a&gt;
 关于rake你可以去阅读&lt;a href=&quot;http://docs.seattlerb.org/rake/&quot;&gt;官方文档&lt;/a&gt;做进一步的了解。&lt;/p&gt;
 
-&lt;p&gt;以下是我的Rakefile&lt;br /&gt;
-```&lt;br /&gt;
+&lt;p&gt;以下是我的Rakefile
+```
 task :default =&amp;gt; :new&lt;/p&gt;
 
 &lt;p&gt;require ‘fileutils’&lt;/p&gt;
 
-&lt;p&gt;desc “创建新 post”&lt;br /&gt;
-task :new do&lt;br /&gt;
-puts “请输入要创建的 post URL：”&lt;br /&gt;
-@url = STDIN.gets.chomp&lt;br /&gt;
-puts “请输入 post 标题：”&lt;br /&gt;
-@name = STDIN.gets.chomp&lt;br /&gt;
-puts “请输入 post 子标题：”&lt;br /&gt;
-@subtitle = STDIN.gets.chomp&lt;br /&gt;
-puts “请输入 post 分类，以空格分隔：”&lt;br /&gt;
-@categories = STDIN.gets.chomp&lt;br /&gt;
-puts “请输入 post 标签：”&lt;br /&gt;
-@tag = STDIN.gets.chomp&lt;br /&gt;
-@slug = “#{@url}”&lt;br /&gt;
-@slug = @slug.downcase.strip.gsub(‘ ‘, ‘-‘)&lt;br /&gt;
-@date = Time.now.strftime(“%F”)&lt;br /&gt;
-@post_name = “_posts/#{@date}-#{@slug}.md”&lt;br /&gt;
-if File.exist?(@post_name)&lt;br /&gt;
-abort(“文件名已经存在！创建失败”)&lt;br /&gt;
-end&lt;br /&gt;
-FileUtils.touch(@post_name)&lt;br /&gt;
-open(@post_name, ‘a’) do |file|&lt;br /&gt;
-file.puts “—”&lt;br /&gt;
-file.puts “layout: post”&lt;br /&gt;
-file.puts “title: &quot;#{@name}&quot;”&lt;br /&gt;
-file.puts “subtitle: &quot;\&quot;#{@subtitle}\&quot;&quot;”&lt;br /&gt;
-file.puts “author: mgsweet”&lt;br /&gt;
-file.puts “date: #{Time.now}”&lt;br /&gt;
-file.puts “categories: #{@categories}”&lt;br /&gt;
-file.puts “tag: #{@tag}”&lt;br /&gt;
-file.puts “—”&lt;br /&gt;
-end&lt;br /&gt;
-exec “vi #{@post_name}”&lt;br /&gt;
-end&lt;br /&gt;
+&lt;p&gt;desc “创建新 post”
+task :new do
+puts “请输入要创建的 post URL：”
+@url = STDIN.gets.chomp
+puts “请输入 post 标题：”
+@name = STDIN.gets.chomp
+puts “请输入 post 子标题：”
+@subtitle = STDIN.gets.chomp
+puts “请输入 post 分类，以空格分隔：”
+@categories = STDIN.gets.chomp
+puts “请输入 post 标签：”
+@tag = STDIN.gets.chomp
+@slug = “#{@url}”
+@slug = @slug.downcase.strip.gsub(‘ ‘, ‘-‘)
+@date = Time.now.strftime(“%F”)
+@post_name = “_posts/#{@date}-#{@slug}.md”
+if File.exist?(@post_name)
+abort(“文件名已经存在！创建失败”)
+end
+FileUtils.touch(@post_name)
+open(@post_name, ‘a’) do |file|
+file.puts “—”
+file.puts “layout: post”
+file.puts “title: &quot;#{@name}&quot;”
+file.puts “subtitle: &quot;\&quot;#{@subtitle}\&quot;&quot;”
+file.puts “author: mgsweet”
+file.puts “date: #{Time.now}”
+file.puts “categories: #{@categories}”
+file.puts “tag: #{@tag}”
+file.puts “—”
+end
+exec “vi #{@post_name}”
+end
 ```&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;文章URL是在_post目录下的文件名，一个好的文件名有助你更新文章。&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-3&quot;&gt;发布&lt;/h2&gt;
-&lt;p&gt;终于到了介绍Github page 的时候了&lt;br /&gt;
+&lt;p&gt;终于到了介绍Github page 的时候了
 关于git与github的使用，可以查看我之前的文章&lt;a href=&quot;http://blog.csdn.net/mgsweet/article/details/51213196&quot;&gt;Git 与 GitHub使用指南汇总&lt;/a&gt;，这里默认你已懂得git与github的操作，在github上创建一个”username.github.io”的repo的话，girhub会默认帮你打开github page，这种命名的仓库github允许每个帐号创建一次，在这种仓库下，你可以直接把你的网页目录&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;到&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;&lt;/code&gt;分支上也没问题，不过如果你还想在这帐号做更多的博客展示的话，可以用github里的项目介绍网址生成功能，就是创建一个repo后，在seting里你可以打开github page，里面有github提供的模版，创建成功后，你要把这个repo&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt;&lt;/code&gt;下来，这时细心的你可能会发现，多了一条分支&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;/code&gt;，你只有在这条分支上放你的网页文件github才会帮你生成网站(虽然你在命令行输入&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;branch&lt;/span&gt;&lt;/code&gt;时看不到这条分支，但你还是能&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;checkout&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;/code&gt;，它不是master的分支，详细可以在github上阅读它关于github page的英文介绍)，最后把你的网页文件覆盖到&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt;&lt;/code&gt;下来的目录里再&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;push&lt;/span&gt;&lt;/code&gt;上github，大概过10分钟你就可以在&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;/code&gt;看到你的网页了。&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 23 Apr 2016 15:36:35 +0800</pubDate>
-        <link>http://mgsweet.github.io/jekyll/git/2016/04/23/jekyllgp/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/jekyll/git/2016/04/23/jekyllgp/</guid>
+        <link>http://localhost:4000/jekyll/git/2016/04/23/jekyllgp/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/git/2016/04/23/jekyllgp/</guid>
         
         <category>jekyll</category>
         
@@ -814,7 +829,7 @@ end&lt;br /&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:new&lt;/span&gt;
 
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;fileutils&#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'fileutils'&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;创建新 post&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:new&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
@@ -829,14 +844,14 @@ end&lt;br /&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;请输入 post 标签：&quot;&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@tag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;STDIN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;chomp&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@url&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-  &lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;-&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'-'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%F&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@post_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_posts/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@date&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.md&quot;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;exist?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@post_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
       &lt;span class=&quot;nb&quot;&gt;abort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;文件名已经存在！创建失败&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
   &lt;span class=&quot;no&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;touch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@post_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@post_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@post_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;layout: post&quot;&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
@@ -853,11 +868,11 @@ end&lt;br /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;上面的内容可以更改，例如作者名，只要把file.puts后的东西改成你想要的就可以了。&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;如何使用Rake,首先你要安装Rake&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;&lt;br /&gt;
-输入一下命令&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;new&lt;/span&gt;&lt;/code&gt;&lt;br /&gt;
-rake会启动交互模式，让你依次输入title，subtitle，author，categories，tag等信息，并为你创建好具有头信息的markdown文件。如下一样:&lt;br /&gt;
+&lt;p&gt;如何使用Rake,首先你要安装Rake
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;
+输入一下命令
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;new&lt;/span&gt;&lt;/code&gt;
+rake会启动交互模式，让你依次输入title，subtitle，author，categories，tag等信息，并为你创建好具有头信息的markdown文件。如下一样:
 &lt;code class=&quot;highlighter-rouge&quot;&gt;
 &lt;span class=&quot;err&quot;&gt;请输入要创建的&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;：&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;testurl&lt;/span&gt;
@@ -874,8 +889,8 @@ rake会启动交互模式，让你依次输入title，subtitle，author，catego
 &lt;p&gt;把这个makefile放在跟目录，运行后文件会自动保存到—post目录，很方便对吧&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Apr 2016 15:18:18 +0800</pubDate>
-        <link>http://mgsweet.github.io/jekyll/rake/2016/04/23/jekyllrfl/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/jekyll/rake/2016/04/23/jekyllrfl/</guid>
+        <link>http://localhost:4000/jekyll/rake/2016/04/23/jekyllrfl/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/rake/2016/04/23/jekyllrfl/</guid>
         
         <category>jekyll</category>
         
@@ -883,58 +898,6 @@ rake会启动交互模式，让你依次输入title，subtitle，author，catego
         <category>jekyll</category>
         
         <category>rake</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Guogle菇歌</title>
-        <description>&lt;p&gt;&lt;em&gt;一下部分内容复制至原博主&lt;/em&gt;&lt;br /&gt;
-&amp;gt; “Yeah It’s on. “&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;新博客就这么开启了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;学着用这种markdown语法， 直接去到正文把哈哈&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2016年，在这个专业上终于是找到了很多的快乐，喜欢打码，喜欢这个世界，希望这个世界会变得更好。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;在&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;玩了两个星期的技术博客，真的不想吐槽那博客有多丑，流量有多虚了，不过因为那里更方便快捷分享，所以依然会保留那边的文章并更新，这边会分享一些日常，或者真的用心写的文章。&lt;/span&gt;
-
-&lt;span class=&quot;err&quot;&gt;还有就是，&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的域名太坑了，之前用的&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qq&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;自动登录，发现竟然无法改域名，忍痛割爱，为了统一的域名，两个星期积累下的&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1500&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;访问量和各种上百的阅读量就这样被我抛弃了，真的恶心到我了。&lt;/span&gt;
-
-&lt;span class=&quot;err&quot;&gt;无意在浏览别人&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的时候发现了&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;搭建自己博客这种自由开放的博客建造模式，一直都想有自己的域名，很炫的哈哈，目前作为试验阶段，暂且用着&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的免费托管，不过也不差啦。这里要感谢&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hux&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;提供的模版，然后自我学习自我折腾，不会前端的我也出了自己的小网站，欢迎观光哈哈。&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;##正文&lt;/p&gt;
-
-&lt;p&gt;接下来是本人学习搭建这个博客的技术细节。&lt;/p&gt;
-
-&lt;p&gt;这个博客需要用到 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 快速 Building Blog 的技术方案。&lt;/p&gt;
-
-&lt;p&gt;其优点非常明显：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 带来的优雅写作体验&lt;/li&gt;
-  &lt;li&gt;非常熟悉的 Git workflow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机&lt;/li&gt;
-  &lt;li&gt;如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了&lt;/li&gt;
-  &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;mac自带的gem 和 ruby 版本较低，好在安装升级方便，各种终端install就完成了，当然遇到了jekyll被墙的问题，不过解决解决方法十分多，大家就百度一下咯。&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 21 Apr 2016 01:52:00 +0800</pubDate>
-        <link>http://mgsweet.github.io/2016/04/21/Welcome-to-Guogle/</link>
-        <guid isPermaLink="true">http://mgsweet.github.io/2016/04/21/Welcome-to-Guogle/</guid>
-        
-        <category>初体验</category>
-        
         
       </item>
     
