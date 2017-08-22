@@ -5,9 +5,22 @@
     <description>Mr.GU's Imagination</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Aug 2017 14:45:42 +0800</pubDate>
-    <lastBuildDate>Tue, 22 Aug 2017 14:45:42 +0800</lastBuildDate>
+    <pubDate>Tue, 22 Aug 2017 15:13:15 +0800</pubDate>
+    <lastBuildDate>Tue, 22 Aug 2017 15:13:15 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>程序句子迷</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;任何一个傻瓜都能写出计算机可以理解的代码。唯有写出人类容易理解的代码，才是优秀的程序员。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 22 Aug 2017 15:08:55 +0800</pubDate>
+        <link>http://localhost:4000/2017/08/22/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/22/</guid>
+        
+        
+      </item>
     
       <item>
         <title>遇见你，真好</title>
@@ -883,58 +896,6 @@ rake会启动交互模式，让你依次输入title，subtitle，author，catego
         <category>jekyll</category>
         
         <category>rake</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Guogle菇歌</title>
-        <description>&lt;p&gt;&lt;em&gt;一下部分内容复制至原博主&lt;/em&gt;
-&amp;gt; “Yeah It’s on. “&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;新博客就这么开启了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;学着用这种markdown语法， 直接去到正文把哈哈&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2016年，在这个专业上终于是找到了很多的快乐，喜欢打码，喜欢这个世界，希望这个世界会变得更好。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;在&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;玩了两个星期的技术博客，真的不想吐槽那博客有多丑，流量有多虚了，不过因为那里更方便快捷分享，所以依然会保留那边的文章并更新，这边会分享一些日常，或者真的用心写的文章。&lt;/span&gt;
-
-&lt;span class=&quot;err&quot;&gt;还有就是，&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的域名太坑了，之前用的&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qq&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;自动登录，发现竟然无法改域名，忍痛割爱，为了统一的域名，两个星期积累下的&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1500&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;访问量和各种上百的阅读量就这样被我抛弃了，真的恶心到我了。&lt;/span&gt;
-
-&lt;span class=&quot;err&quot;&gt;无意在浏览别人&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csdn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的时候发现了&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;搭建自己博客这种自由开放的博客建造模式，一直都想有自己的域名，很炫的哈哈，目前作为试验阶段，暂且用着&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;的免费托管，不过也不差啦。这里要感谢&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hux&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;提供的模版，然后自我学习自我折腾，不会前端的我也出了自己的小网站，欢迎观光哈哈。&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;##正文&lt;/p&gt;
-
-&lt;p&gt;接下来是本人学习搭建这个博客的技术细节。&lt;/p&gt;
-
-&lt;p&gt;这个博客需要用到 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 快速 Building Blog 的技术方案。&lt;/p&gt;
-
-&lt;p&gt;其优点非常明显：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 带来的优雅写作体验&lt;/li&gt;
-  &lt;li&gt;非常熟悉的 Git workflow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机&lt;/li&gt;
-  &lt;li&gt;如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了&lt;/li&gt;
-  &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;mac自带的gem 和 ruby 版本较低，好在安装升级方便，各种终端install就完成了，当然遇到了jekyll被墙的问题，不过解决解决方法十分多，大家就百度一下咯。&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 21 Apr 2016 01:52:00 +0800</pubDate>
-        <link>http://localhost:4000/2016/04/21/Welcome-to-Guogle/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/04/21/Welcome-to-Guogle/</guid>
-        
-        <category>初体验</category>
-        
         
       </item>
     
