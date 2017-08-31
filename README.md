@@ -11,6 +11,7 @@
 ## 快速文章编写
 ``rake new``
 
+## 模版使用
 thanks to the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), if you like, all documents is over there!
  
 [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
