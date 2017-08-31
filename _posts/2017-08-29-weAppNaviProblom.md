@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "微信小程序 navigate页面跳转问题解决方案"
-subtitle: "\"最近在跟着别人做外包小程序，在跳转的时候遇到很大的问题 ，由于微信小程序的`navigateBack`是不会刷新原来页面的，所以当我要做到如下逻辑时，感到十分困惑，同时觉得无法控制后退按钮指向页面这一设定十分不科学。\""
+subtitle: "\"微信小程序开发问题与解决\""
 author: mgsweet
 date: 2017-08-29 15:30:18 +0800
 categories: 微信小程序
 tag: 微信小程序
 ---
 
-	最近在跟着别人做外包小程序，在跳转的时候遇到很大的问题 ，由于微信小程序的`navigateBack`是不会刷新原来页面的，所以当我要做到如下逻辑时，感到十分困惑，同时觉得无法控制后退按钮指向页面这一设定十分不科学。
+最近在跟着别人做外包小程序，在跳转的时候遇到很大的问题 ，由于微信小程序的`navigateBack`是不会刷新原来页面的，所以当我要做到如下逻辑时，感到十分困惑，同时觉得无法控制后退按钮指向页面这一设定十分不科学。
 
 先来看看问题所在，例如我要实现如下页面逻辑
 ![问题](http://img.blog.csdn.net/20170829151119454?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWdzd2VldA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
