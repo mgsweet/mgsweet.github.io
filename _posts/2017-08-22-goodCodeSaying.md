@@ -1,5 +1,5 @@
 ---
-layout: pos
+layout: post
 title: "程序句子迷"
 subtitle: "\"摘抄一些平时看到的好的程序相关句子\""
 author: mgsweet
