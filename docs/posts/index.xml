@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - 菇星獨行</title>
+        <link>http://example.org/posts/</link>
+        <description>所有文章 | 菇星獨行</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mgsweet@126.com (Aaron Yau)</managingEditor>
+            <webMaster>mgsweet@126.com (Aaron Yau)</webMaster><lastBuildDate>Wed, 27 Oct 2021 16:35:57 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>又重建了我的 Blog...</title>
+    <link>http://example.org/20211027_firstpost/</link>
+    <pubDate>Wed, 27 Oct 2021 16:35:57 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/20211027_firstpost/</guid>
+    <description><![CDATA[起因是我最近用 go 开发比较多，工作也比较闲（双减政策转型中，无业务）。就乱翻了下 go 相关的优秀项目，找到了 HUGO 这个厉害的项目。 想到旧博客长年闲置还]]></description>
+</item></channel>
+</rss>
