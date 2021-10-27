@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 菇星獨行 ｜ mgsweet&#39;s Blog</title>
-        <link>http://mgsweet.com/posts/</link>
-        <description>所有文章 | 菇星獨行 ｜ mgsweet&#39;s Blog</description>
+        <title>杂谈 - 分类 - 菇星獨行 ｜ mgsweet&#39;s Blog</title>
+        <link>http://mgsweet.com/categories/%E6%9D%82%E8%B0%88/</link>
+        <description>杂谈 - 分类 - 菇星獨行 ｜ mgsweet&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mgsweet@126.com (Aaron Yau)</managingEditor>
-            <webMaster>mgsweet@126.com (Aaron Yau)</webMaster><lastBuildDate>Wed, 27 Oct 2021 16:35:57 &#43;0800</lastBuildDate><atom:link href="http://mgsweet.com/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mgsweet@126.com (Aaron Yau)</webMaster><lastBuildDate>Wed, 27 Oct 2021 16:35:57 &#43;0800</lastBuildDate><atom:link href="http://mgsweet.com/categories/%E6%9D%82%E8%B0%88/" rel="self" type="application/rss+xml" /><item>
     <title>又重建了我的 Blog...</title>
     <link>http://mgsweet.com/20211027_firstpost/</link>
     <pubDate>Wed, 27 Oct 2021 16:35:57 &#43;0800</pubDate>

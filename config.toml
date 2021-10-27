@@ -1,18 +1,55 @@
-baseURL = "http://example.org/"
-# [en, zh-cn, fr, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
-# 网站语言, 仅在这里 CN 大写
-languageCode = "zh-CN"
+baseURL = "http://mgsweet.com/"
+enableGitInfo = true
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "菇星獨行"
+title = "菇星獨行 ｜ mgsweet's Blog"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 
 # github page 配置
 publishDir = "docs"
+
+# [en, zh-cn, fr, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+
+# Menu bar 设置
+[manu]
+  [[menu.main]]
+    identifier = "home"
+    pre = ""
+    post = ""
+    name = "主页"
+    url = "/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "所有文章"
+    url = "/posts/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 4
 
 [params]
   # LoveIt 更改 | 0.2.0 LoveIt 主题版本
@@ -24,7 +61,7 @@ publishDir = "docs"
   # 网站默认主题样式 ("light", "dark", "auto")
   defaultTheme = "light"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = ""
+  gitRepo = "github/mgsweet"
   # LoveIt 新增 | 0.1.1 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -36,7 +73,7 @@ publishDir = "docs"
   # LoveIt 新增 | 0.2.0 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
+    title = ""
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -137,7 +174,7 @@ publishDir = "docs"
       # 主页显示头像的 URL
       avatarURL = "/images/avatar3.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "菇星獨行"
       # 主页显示的网站副标题
       subtitle = "可愛又迷人嘅反派角色 | A bad guy doing good things."
       # 是否为副标题显示打字机动画
@@ -375,10 +412,10 @@ publishDir = "docs"
         enable = false
       # LoveIt 新增 | 0.2.5 Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
-        issueTerm = "pathname"
+        repo = "mgsweet/mgsweet.github.io"
+        issueTerm = "comments"
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"

@@ -7,11 +7,6 @@ How to create an article:
 hugo new posts/first_post.md
 ```
 
-To build the project (to `/public`)
-```shell
-hugo
-```
-
 To run locally
 ```shell
 # Normal mode
@@ -20,10 +15,17 @@ hugo serve
 hugo serve -e production
 ```
 
-Links:
-- [LoveIt Documentation](https://hugoloveit.com/categories/documentation/)
+To build the project (to `/docs` for publish)
+```shell
+hugo
+```
+
+## LoveIt
+[LoveIt Documentation](https://hugoloveit.com/categories/documentation/)
+- [基本概念](https://hugoloveit.com/zh-cn/theme-documentation-basics/#32-%E7%BD%91%E7%AB%99%E5%9B%BE%E6%A0%87-%E6%B5%8F%E8%A7%88%E5%99%A8%E9%85%8D%E7%BD%AE-%E7%BD%91%E7%AB%99%E6%B8%85%E5%8D%95)
+- [内置 Shortcodes](https://hugoloveit.com/zh-cn/theme-documentation-built-in-shortcodes/)
+- [内容](https://hugoloveit.com/zh-cn/theme-documentation-content/#front-matter)
+
+## Other tools:
 - [Favicon Generator](https://realfavicongenerator.net/)
-- [Avatar Generator 1 (prefer)](https://getavataaars.com/)
-- [Avatar Generator 2](https://personas.draftbit.com/)
-- [Avatar Generator 3](https://avatarmaker.com/)
-- [Avatar Generator 4](https://placeit.net/avatar-maker)
+- [Avatar Generator 1](https://getavataaars.com/)
