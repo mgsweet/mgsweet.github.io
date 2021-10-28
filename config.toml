@@ -138,7 +138,7 @@ languageCode = "zh-CN"
     # LoveIt 新增 | 0.2.0 是否显示作者
     author = true
     # 网站创立年份
-    since = 2019
+    since = 2021
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # 许可协议信息 (支持 HTML 格式)
@@ -174,9 +174,9 @@ languageCode = "zh-CN"
       # 主页显示头像的 URL
       avatarURL = "/images/avatar3.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "菇星獨行"
+      title = "mgsweet"
       # 主页显示的网站副标题
-      subtitle = "可愛又迷人嘅反派角色 | A bad guy doing good things."
+      subtitle = "如果文章不能做到通俗易懂，那就是我没弄懂..."
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
